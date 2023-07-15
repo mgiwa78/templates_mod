@@ -8,6 +8,7 @@
   <!--<![endif]-->
 
   <head>
+    <script src="https://cdn.tailwindcss.com"></script>
     <!-- Basic Page Needs -->
     <meta charset="utf-8" />
     <title>Be</title>
@@ -40,6 +41,18 @@
 
     <!-- Revolution Slider -->
     <link rel="stylesheet" href="../plugins/rs-plugin/css/settings.css" />
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d"
+            }
+          }
+        }
+      };
+    </script>
   </head>
 
   <body
@@ -52,7 +65,14 @@
             <div class="container">
               <div class="column one">
                 <div class="top_bar_left clearfix">
-                  <div class="logo">
+                  <div
+                    class="logo"
+                    style="
+                      margin: 0;
+                      display: flex;
+                      justify-content: space-between;
+                    "
+                  >
                     <a
                       id="logo"
                       href="index.html"
@@ -322,11 +342,7 @@
               </div>
               <div
                 class="section mcb-section full-width no-margin-h no-margin-v"
-                style="
-                  padding-top: 40px;
-                  padding-bottom: 40px;
-                  background-color: #f2f2f2;
-                "
+                style="background-color: #f2f2f2"
               >
                 <div class="section_wrapper mcb-section-inner">
                   <div class="wrap mcb-wrap one valign-top clearfix">
@@ -334,28 +350,28 @@
                       <div class="column mcb-column one column_slider dark">
                         <div class="content_slider center">
                           <ul class="content_slider_ul">
-                            <li>
+                            <li style="padding: 0">
                               <img
-                                src="../newImages/pexels-mo-eid-9002742.jpg"
+                                src="../newImages/pexels-rostislav-uzunov-10458835.bak.jpg"
                                 class="scale-with-grid wp-post-image"
                               />
                             </li>
-                            <li>
+                            <li style="padding: 0">
                               <img
-                                src="../newImages/pexels-rodion-kutsaiev-9436715 (1).jpg"
+                                src="../newImages/pexels-rostislav-uzunov-4754883.bak.bak.jpg"
                                 class="scale-with-grid wp-post-image"
                               />
                             </li>
-                            <li>
+                            <li style="padding: 0">
                               <img
-                                src="../newImages/pexels-rostislav-uzunov-10458835.jpg"
+                                src="../newImages/wallhaven-eo31ml_960x700.png"
                                 class="scale-with-grid wp-post-image"
                               />
                             </li>
 
-                            <li>
+                            <li style="padding: 0">
                               <img
-                                src="../newImages/pexels-rostislav-uzunov-4754883.jpg"
+                                src="../newImages/beautiful_ocean_view_waves_white_beach_sand_mountains_with_fog_under_blue_sky_4k_8k_hd_nature-7680x4320 (Large).jpg"
                                 class="scale-with-grid wp-post-image"
                               />
                             </li>
@@ -370,11 +386,12 @@
               <div
                 class="section mcb-section"
                 style="
-                  padding-top: 310px;
-                  padding-bottom: 310px;
-                  background-image: url(../newImages/pexels-rostislav-uzunov-4754883.jpg);
+                  padding-top: 110px;
+                  padding-bottom: 110px;
+                  background-image: url(../newImages/wallhaven-vgkmrm_3840x3072.png);
                   background-repeat: no-repeat;
                   background-position: center;
+                  background-size: cover;
                 "
               >
                 <div class="section_wrapper mcb-section-inner">
@@ -382,7 +399,7 @@
                     class="wrap mcb-wrap one-second valign-top clearfix"
                     style="padding: 30px 0 0"
                   >
-                    <div class="mcb-wrap-inner">
+                    <div class="mcb-wrap-inner d-flex">
                       <div class="column mcb-column one column_column">
                         <div class="column_attr clearfix">
                           <h1>

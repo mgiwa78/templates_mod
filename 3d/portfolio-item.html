@@ -35,6 +35,20 @@
     <link rel="stylesheet" href="css/structure.css" />
     <link rel="stylesheet" href="css/3d.css" />
     <link rel="stylesheet" href="css/custom.css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d"
+            }
+          }
+        }
+      };
+    </script>
   </head>
 
   <body
@@ -44,11 +58,28 @@
       <div id="Header_wrapper">
         <header id="Header">
           <div class="header_placeholder"></div>
-          <div id="Top_bar">
-            <div class="container">
-              <div class="column one">
-                <div class="top_bar_left clearfix">
-                  <div class="logo">
+          <div>
+            <div class="container p-0">
+              <div class="one">
+                <div
+                  class="top_bar_left clearfix flex px-7 lg: items-center py-3 lg:px-20 xxl:px-20"
+                  style="
+                    background-color: #5c95ffad;
+                    position: fixed;
+                    z-index: 9;
+                    width: 100vw;
+                    top: 0px;
+                    left: 0;
+                  "
+                >
+                  <div
+                    class="logo items-center justify-center"
+                    style="
+                      margin: 0;
+                      display: flex;
+                      justify-content: space-between;
+                    "
+                  >
                     <a
                       id="logo"
                       href="index.html"
@@ -60,28 +91,13 @@
                         src="images/3d.png"
                         data-retina="images/retina-3d.png"
                         data-height="39"
-                      /><img
-                        class="logo-sticky scale-with-grid"
-                        src="images/3d.png"
-                        data-retina="images/retina-3d.png"
-                        data-height="39"
-                      /><img
-                        class="logo-mobile scale-with-grid"
-                        src="images/3d.png"
-                        data-retina="images/retina-3d.png"
-                        data-height="39"
-                      /><img
-                        class="logo-mobile-sticky scale-with-grid"
-                        src="images/3d.png"
-                        data-retina="images/retina-3d.png"
-                        data-height="39"
                       />
                     </a>
                   </div>
                   <div class="menu_wrapper">
                     <nav id="menu" class="menu-main-menu-container">
                       <ul id="menu-main-menu" class="menu">
-                        <li>
+                        <li class="current_page_item">
                           <a href="index.html"><span>Home</span></a>
                         </li>
                         <li>
@@ -100,7 +116,15 @@
                         </li>
                       </ul>
                     </nav>
-                    <a class="responsive-menu-toggle" href="#"
+                    <a
+                      class="responsive-menu-toggle top-5 right-6 lg:top-4 lg:right-12 xl:right-20 fixed z-30 text-2xl"
+                      style="
+                        position: fixed;
+                        z-index: 12;
+                        font-size: x-large;
+                        color: #dcb787;
+                      "
+                      href="#"
                       ><i class="icon-menu-fine"></i
                     ></a>
                   </div>
@@ -185,7 +209,7 @@
             >
               <div class="section_wrapper mcb-section-inner">
                 <div class="wrap mcb-wrap one valign-top clearfix">
-                  <div class="mcb-wrap-inner">
+                  <div class="mcb-wrap-inner flex flex-col gap-y-7">
                     <div class="column mcb-column one column_image">
                       <div
                         class="image_frame image_item no_link scale-with-grid aligncenter no_border"
@@ -193,7 +217,7 @@
                         <div class="image_wrapper">
                           <img
                             class="scale-with-grid"
-                            src="../newImages/pexels-rostislav-uzunov-10458835.jpg"
+                            src="../newImages/pexels-rodion-kutsaiev-9436715.jpg"
                           />
                         </div>
                       </div>
@@ -205,7 +229,7 @@
                         <div class="image_wrapper">
                           <img
                             class="scale-with-grid"
-                            src="../newImages/pexels-rodion-kutsaiev-9436715 (1).jpg"
+                            src="../newImages/simon-lee-egWTpKFu8rU-unsplash.bak.jpg"
                           />
                         </div>
                       </div>
@@ -217,7 +241,7 @@
                         <div class="image_wrapper">
                           <img
                             class="scale-with-grid"
-                            src="../newImages/pexels-rostislav-uzunov-4754883.jpg"
+                            src="../newImages/solen-feyissa-Sp5DoF6IKo0-unsplash.jpg"
                           />
                         </div>
                       </div>

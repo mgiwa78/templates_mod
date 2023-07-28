@@ -31,14 +31,13 @@ body {
 }
 #Wrapper {
   /* width: 1240px; */
-  margin: 0px auto;
+  width: 100vw !important;
   overflow: hidden;
 }
 .layout-full-width {
   padding: 0;
 }
 .layout-full-width #Wrapper {
-  width: 100% !important;
   margin: 0 !important;
 }
 
@@ -4164,7 +4163,7 @@ body.error404:not(.events-archive) #Content {
 #Error_404 .error_desk p em {
   font-style: italic;
   font-size: 17px;
-font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   padding: 0 15px;
 }
@@ -5610,7 +5609,7 @@ body {
     min-width: 0;
   }
   #Wrapper {
-    width: 728px;
+    width: 90vw;
   }
   .section_wrapper,
   .container,
@@ -5902,7 +5901,7 @@ body {
     min-width: 0;
   }
   #Wrapper {
-    width: 300px;
+    width: 90vw;
   }
   .section_wrapper .column,
   .container .column,
@@ -6651,7 +6650,7 @@ body {
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   #Wrapper {
-    width: 420px;
+    width: 100vw;
   }
   .section_wrapper,
   .container,

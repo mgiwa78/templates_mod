@@ -3955,7 +3955,7 @@ body.error404:not(.events-archive) #Content {
 #Error_404 .error_desk p em {
 	font-style: italic;
 	font-size: 17px;
-	font-family: Georgia, serif;
+font-family: 'Montserrat', sans-serif;
 	padding: 0 15px;
 }
 #Error_404 .error_desk p .button {

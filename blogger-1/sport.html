@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+
+  <head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8" />
+    <title>Be</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- Mobile Specific Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+
+    <!-- FONTS -->
+    <link
+      rel="stylesheet"
+      href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700"
+    />
+    <link
+      rel="stylesheet"
+      href="http://fonts.googleapis.com/css?family=Open+Sans:100,300,400,400italic,700"
+    />
+    <link
+      rel="stylesheet"
+      href="http://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="css/structure.css" />
+    <link rel="stylesheet" href="css/blogger.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d"
+            }
+          }
+        }
+      };
+    </script>
+  </head>
+
+  <body
+    class="archive category with_aside aside_right layout-boxed header-classic minimalist-header grid960 sticky-header sticky-white subheader-title-left"
+  >
+    <!-- Main Theme Wrapper -->
+    <div id="Wrapper">
+      <!-- Header Wrapper -->
+      <div id="Header_wrapper">
+        <!-- Header -->
+        <header id="Header">
+          <!-- Header Top -  Info Area -->
+
+          <!-- Header -  Logo and Menu area -->
+          <div id="Top_bar">
+            <div class="container lg:max-w-[1500px] lg:w-[1200px]">
+              <div class="column one flex justify-between items-center">
+                <div
+                  class="top_bar_left clearfix flex justify-between items-center"
+                >
+                  <!-- Logo-->
+                  <div class="logo">
+                    <a id="logo" href="index.html" title="BeBlogger - BeTheme"
+                      ><img class="scale-with-grid" src="images/logo.svg" />
+                    </a>
+                  </div>
+                  <!-- Main menu-->
+                  <div class="menu_wrapper">
+                    <nav id="menu">
+                      <ul id="menu-main-menu" class="menu">
+                        <li>
+                          <a href="index.html"><span>Home</span></a>
+                        </li>
+                        <li>
+                          <a href="technology.html"><span>Technology</span></a>
+                        </li>
+                        <li>
+                          <a href="sport.html"><span>Sport</span></a>
+                        </li>
+                        <li>
+                          <a href="news.html"><span>News</span></a>
+                        </li>
+                        <li>
+                          <a href="lifestyle.html"><span>Lifestyle</span></a>
+                        </li>
+                      </ul>
+                    </nav>
+                    <a class="responsive-menu-toggle" href="#"
+                      ><i class="icon-menu"></i
+                    ></a>
+                  </div>
+                  <!-- Header Searchform area-->
+                  <div class="search_wrapper">
+                    <form method="get" action="#">
+                      <i class="icon_search icon-search"></i
+                      ><a href="#" class="icon_close"
+                        ><i class="icon-cancel"></i
+                      ></a>
+                      <input
+                        type="text"
+                        class="field"
+                        name="s"
+                        placeholder="Enter your search"
+                      />
+                      <input
+                        type="submit"
+                        class="submit flv_disp_none"
+                        value=""
+                      />
+                    </form>
+                  </div>
+                </div>
+                <div class="top_bar_right">
+                  <div class="top_bar_right_wrapper">
+                    <a id="search_button" href="#"
+                      ><i class="icon-search"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <!--Subheader area - only for certain pages -->
+        <div id="Subheader">
+          <div class="container flex justify-center items-center">
+            <div class="column one lg:max-w-[1000px] lg:w-[1200px]">
+              <h1 class="title">Sport</h1>
+              <!--BreadCrumbs area-->
+              <ul class="breadcrumbs">
+                <li>
+                  <a href="index.html">Home</a
+                  ><span><i class="icon-right-open"></i></span>
+                </li>
+                <li>
+                  <a href="news.html">Blog</a
+                  ><span><i class="icon-right-open"></i></span>
+                </li>
+                <li>
+                  <a href="index.html">Sport</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Main Content -->
+      <div id="Content">
+        <div class="content_wrapper clearfix">
+          <div class="sections_group">
+            <div class="extra_content"></div>
+            <div class="section">
+              <div class="section_wrapper clearfix">
+                <!--  Filter Area -->
+                <div id="Filters" class="column one">
+                  <ul class="filters_buttons">
+                    <li class="label">Filter by</li>
+                    <li class="categories">
+                      <a class="open" href="#"
+                        ><i class="icon-docs"></i>Categories<i
+                          class="icon-down-dir"
+                        ></i
+                      ></a>
+                    </li>
+                    <li class="tags">
+                      <a class="open" href="#"
+                        ><i class="icon-tag"></i>Tags<i
+                          class="icon-down-dir"
+                        ></i
+                      ></a>
+                    </li>
+                    <li class="authors">
+                      <a class="open" href="#"
+                        ><i class="icon-user"></i>Authors<i
+                          class="icon-down-dir"
+                        ></i
+                      ></a>
+                    </li>
+                    <li class="reset">
+                      <a class="close" data-rel="*" href="news.html"
+                        ><i class="icon-cancel"></i>Show all</a
+                      >
+                    </li>
+                  </ul>
+                  <div class="filters_wrapper">
+                    <ul class="categories">
+                      <li>
+                        <a data-rel=".category-lifestyle" href="lifestyle.html"
+                          >Lifestyle</a
+                        >
+                      </li>
+                      <li>
+                        <a data-rel=".category-news" href="news.html">News</a>
+                      </li>
+                      <li>
+                        <a
+                          data-rel=".category-sport"
+                          href="../../index-sport.html"
+                          >Sport</a
+                        >
+                      </li>
+                      <li>
+                        <a data-rel=".category-technology" href="index.html"
+                          >Sport</a
+                        >
+                      </li>
+                      <li class="close">
+                        <a href="#"><i class="icon-cancel"></i></a>
+                      </li>
+                    </ul>
+                    <ul class="tags">
+                      <li>
+                        <a data-rel=".tag-design" href="tag-design.html"
+                          >Design</a
+                        >
+                      </li>
+                      <li>
+                        <a data-rel=".tag-framework" href="tag-framework.html"
+                          >Framework</a
+                        >
+                      </li>
+                      <li>
+                        <a data-rel=".tag-grid" href="tag-grid.html">Grid</a>
+                      </li>
+                      <li>
+                        <a data-rel=".tag-motion" href="tag-motion.html"
+                          >Motion</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          data-rel=".tag-themeforest"
+                          href="tag-themeforest.html"
+                          >Themeforest</a
+                        >
+                      </li>
+                      <li>
+                        <a data-rel=".tag-video" href="tag-design.html"
+                          >Video</a
+                        >
+                      </li>
+                      <li>
+                        <a data-rel=".tag-wordpress" href="tag-themeforest.html"
+                          >Wordpress</a
+                        >
+                      </li>
+                      <li class="close">
+                        <a href="#"><i class="icon-cancel"></i></a>
+                      </li>
+                    </ul>
+                    <ul class="authors">
+                      <li>
+                        <a data-rel=".author-admin" href="#">admin</a>
+                      </li>
+                      <li class="close">
+                        <a href="#"><i class="icon-cancel"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- One full width row-->
+                <div class="column one column_blog">
+                  <div class="blog_wrapper isotope_wrapper">
+                    <div class="posts_group lm_wrapper classic">
+                      <div
+                        class="post format-standard has-post-thumbnail category-technology tag-grid post-item isotope-item clearfix"
+                      >
+                        <div class="date_label">May 9, 2014</div>
+                        <div
+                          class="image_frame post-photo-wrapper scale-with-grid"
+                        >
+                          <div class="image_wrapper">
+                            <a href="article-4.html">
+                              <div class="mask"></div>
+                              <img
+                                width="576"
+                                height="450"
+                                src="images/home_press_blog_4-576x450.jpg"
+                                class="scale-with-grid wp-post-image"
+                              />
+                            </a>
+                            <div class="image_links double">
+                              <a href="#" class="mfn-love" data-id="2269"
+                                ><span class="icons-wrapper"
+                                  ><i class="icon-heart-empty-fa"></i></span
+                                ><span class="label"></span
+                              ></a>
+                              <a
+                                href="article-1-2.html#comments"
+                                class="post-comments"
+                                ><i class="icon-comment-empty-fa"></i
+                              ></a>
+                              <a
+                                href="content/blogger/article-1-2.html"
+                                class="link"
+                                ><i class="icon-link"></i
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="post-desc-wrapper">
+                          <div class="post-desc">
+                            <div class="post-meta clearfix">
+                              <div class="author-date">
+                                <span class="author"
+                                  ><span>Published by </span
+                                  ><i class="icon-user"></i>
+                                  <a href="#">admin</a> </span
+                                ><span class="date"
+                                  ><span> at </span
+                                  ><i class="icon-clock"></i> May 9, 2015</span
+                                >
+                              </div>
+                              <div class="category">
+                                <span class="cat-btn"
+                                  >Categories <i class="icon-down-dir"></i
+                                ></span>
+                                <div class="cat-wrapper">
+                                  <ul class="post-categories">
+                                    <li>
+                                      <a href="index.html" rel="category tag"
+                                        >Sport</a
+                                      >
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="post-title">
+                              <h3 class="entry-title text-xs">
+                                <a href="article-4.html"
+                                  >Proin dui sodales imperdiet sit sapien fames
+                                  ac luctus</a
+                                >
+                              </h3>
+                            </div>
+                            <div class="post-excerpt">
+                              <p class="big">
+                                Pellentesque et lacus pretium tincidunt.
+                                Pellentesque at metus. Donec nisl a nisl.
+                                Vestibulum ante ipsum primis in nulla orci ut
+                                leo nec cursus consequat, orci ut
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="post format-standard has-post-thumbnail category-technology tag-video post-item isotope-item clearfix"
+                      >
+                        <div class="date_label">May 8, 2014</div>
+                        <div
+                          class="image_frame post-photo-wrapper scale-with-grid"
+                        >
+                          <div class="image_wrapper">
+                            <a href="article-5.html">
+                              <div class="mask"></div>
+                              <img
+                                width="576"
+                                height="450"
+                                src="images/home_press_blog_5-576x450.jpg"
+                                class="scale-with-grid wp-post-image"
+                              />
+                            </a>
+                            <div class="image_links double">
+                              <a href="#" class="mfn-love" data-id="2269"
+                                ><span class="icons-wrapper"
+                                  ><i class="icon-heart-empty-fa"></i></span
+                                ><span class="label"></span
+                              ></a>
+                              <a
+                                href="article-1-2.html#comments"
+                                class="post-comments"
+                                ><i class="icon-comment-empty-fa"></i
+                              ></a>
+                              <a
+                                href="content/blogger/article-1-2.html"
+                                class="link"
+                                ><i class="icon-link"></i
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="post-desc-wrapper">
+                          <div class="post-desc">
+                            <div class="post-meta clearfix">
+                              <div class="author-date">
+                                <span class="author"
+                                  ><span>Published by </span
+                                  ><i class="icon-user"></i>
+                                  <a href="#">admin</a> </span
+                                ><span class="date"
+                                  ><span> at </span
+                                  ><i class="icon-clock"></i> May 8, 2015</span
+                                >
+                              </div>
+                              <div class="category">
+                                <span class="cat-btn"
+                                  >Categories <i class="icon-down-dir"></i
+                                ></span>
+                                <div class="cat-wrapper">
+                                  <ul class="post-categories">
+                                    <li>
+                                      <a href="index.html" rel="category tag"
+                                        >Sport</a
+                                      >
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="post-title">
+                              <h3 class="entry-title">
+                                <a href="article-5.html"
+                                  >Vestibulum commodo volutpat laoreet</a
+                                >
+                              </h3>
+                            </div>
+                            <div class="post-excerpt">
+                              <p class="big">
+                                Nunc felis. Curabitur ac ipsum. Pellentesque
+                                nibh ultricies est. Maecenas consequat, augue a
+                                venenatis risus. Ut id mollis vel, lacinia quam.
+                                Praesent blandit malesuada. Suspendisse commodo
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="post format-standard has-post-thumbnail category-technology tag-motion tag-video post-item isotope-item clearfix"
+                      >
+                        <div class="date_label">May 7, 2014</div>
+                        <div
+                          class="image_frame post-photo-wrapper scale-with-grid"
+                        >
+                          <div class="image_wrapper">
+                            <a href="article-6.html">
+                              <div class="mask"></div>
+                              <img
+                                width="576"
+                                height="450"
+                                src="images/home_press_blog_6-576x450.jpg"
+                                class="scale-with-grid wp-post-image"
+                              />
+                            </a>
+                            <div class="image_links double">
+                              <a href="#" class="mfn-love" data-id="2269"
+                                ><span class="icons-wrapper"
+                                  ><i class="icon-heart-empty-fa"></i></span
+                                ><span class="label"></span
+                              ></a>
+                              <a
+                                href="article-1-2.html#comments"
+                                class="post-comments"
+                                ><i class="icon-comment-empty-fa"></i
+                              ></a>
+                              <a
+                                href="content/blogger/article-1-2.html"
+                                class="link"
+                                ><i class="icon-link"></i
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="post-desc-wrapper">
+                          <div class="post-desc">
+                            <div class="post-meta clearfix">
+                              <div class="author-date">
+                                <span class="author"
+                                  ><span>Published by </span
+                                  ><i class="icon-user"></i>
+                                  <a href="#">admin</a> </span
+                                ><span class="date"
+                                  ><span> at </span
+                                  ><i class="icon-clock"></i> May 7, 2015</span
+                                >
+                              </div>
+                              <div class="category">
+                                <span class="cat-btn"
+                                  >Categories <i class="icon-down-dir"></i
+                                ></span>
+                                <div class="cat-wrapper">
+                                  <ul class="post-categories">
+                                    <li>
+                                      <a href="index.html" rel="category tag"
+                                        >Sport</a
+                                      >
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="post-title">
+                              <h3 class="entry-title">
+                                <a href="article-6.html"
+                                  >Quisque lorem tortor fringilla sed vesti
+                                  bulum justo vel</a
+                                >
+                              </h3>
+                            </div>
+                            <div class="post-excerpt">
+                              Quisque lorem tortor fringilla sed, vestibulum id,
+                              eleifend justo vella ipsum dolor lacus, suscipit
+                              adipiscing. Cum sociis natoque penatibus et
+                              ultrices volutpat.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="post format-standard has-post-thumbnail category-technology post-item isotope-item clearfix"
+                      >
+                        <div class="date_label">May 6, 2014</div>
+                        <div
+                          class="image_frame post-photo-wrapper scale-with-grid"
+                        >
+                          <div class="image_wrapper">
+                            <a href="article-7.html">
+                              <div class="mask"></div>
+                              <img
+                                width="576"
+                                height="450"
+                                src="images/home_press_blog_14-576x450.jpg"
+                                class="scale-with-grid wp-post-image"
+                              />
+                            </a>
+                            <div class="image_links double">
+                              <a href="#" class="mfn-love" data-id="2269"
+                                ><span class="icons-wrapper"
+                                  ><i class="icon-heart-empty-fa"></i></span
+                                ><span class="label"></span
+                              ></a>
+                              <a
+                                href="article-1-2.html#comments"
+                                class="post-comments"
+                                ><i class="icon-comment-empty-fa"></i
+                              ></a>
+                              <a
+                                href="content/blogger/article-1-2.html"
+                                class="link"
+                                ><i class="icon-link"></i
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="post-desc-wrapper">
+                          <div class="post-desc">
+                            <div class="post-meta clearfix">
+                              <div class="author-date">
+                                <span class="author"
+                                  ><span>Published by </span
+                                  ><i class="icon-user"></i>
+                                  <a href="#">admin</a> </span
+                                ><span class="date"
+                                  ><span> at </span
+                                  ><i class="icon-clock"></i> May 6, 2015</span
+                                >
+                              </div>
+                              <div class="category">
+                                <span class="cat-btn"
+                                  >Categories <i class="icon-down-dir"></i
+                                ></span>
+                                <div class="cat-wrapper">
+                                  <ul class="post-categories">
+                                    <li>
+                                      <a href="index.html" rel="category tag"
+                                        >Sport</a
+                                      >
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="post-title">
+                              <h3 class="entry-title">
+                                <a href="article-7.html"
+                                  >Vivamus sit amet metus sem imperdiet</a
+                                >
+                              </h3>
+                            </div>
+                            <div class="post-excerpt">
+                              <p class="big">
+                                Aliquam adipiscing felis tincidunt eget, euismod
+                                pede eu cursus at, suscipit a, lorem. Morbi
+                                sodales wisi placerat eget, elementum eu,
+                                ullamcorper ac
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="four columns">
+            <div class="widget-area clearfix">
+              <!-- Search form-->
+              <aside id="search-2" class="widget widget_search">
+                <h3>Search</h3>
+                <form method="get" action="#">
+                  <input
+                    type="text"
+                    class="field"
+                    name="s"
+                    placeholder="Enter your search"
+                  />
+                  <input type="submit" class="submit" value="Search" />
+                </form>
+              </aside>
+              <!-- Recent posts -->
+              <aside
+                id="widget_mfn_recent_posts-4"
+                class="widget widget_mfn_recent_posts"
+              >
+                <h3>Recent posts</h3>
+                <div class="Recent_posts pt-3 gap-4 flex flex-col">
+                  <div
+                    class="flex md:flex-col lg:flex-row lg:justify-center justify-between items-center w-max lg:w-full bg-white"
+                  >
+                    <img
+                      src="images/home_press_blog_1-80x80.jpg"
+                      class="scale-with-grid wp-post-image w-full"
+                    />
+                    <div class="desc h-full text-xs px-1">
+                      <h6>Aenean ligula mol stie viverra</h6>
+                      <span class="date"
+                        ><i class="icon-clock"></i>May 12, 2015</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="flex md:flex-col lg:flex-row lg:justify-center justify-between items-center w-max lg:w-full bg-white"
+                  >
+                    <img
+                      src="images/home_press_blog_1-80x80.jpg"
+                      class="scale-with-grid wp-post-image w-full"
+                    />
+                    <div class="desc h-full text-xs px-1">
+                      <h6>Aenean ligula mol stie viverra</h6>
+                      <span class="date"
+                        ><i class="icon-clock"></i>May 12, 2015</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </aside>
+              <!-- Categories Area -->
+              <aside id="categories-2">
+                <h3 class="text-xl font-bold">Categories</h3>
+                <ul
+                  class="flex flex-col gap-y-2 list-disc mt-2 text-white [&>li]:bg-[#3772ff] p-1 [&>li]:px-3 [&>li]:py-1 mb-6"
+                >
+                  <li class="">
+                    <a href="lifestyle.html">Lifestyle</a>
+                  </li>
+                  <li class="">
+                    <a href="lifestyle.html">News</a>
+                  </li>
+                  <li class="">
+                    <a href="sport.html">Sport</a>
+                  </li>
+                  <li class="">
+                    <a href="technology.html">Technology</a>
+                  </li>
+                </ul>
+              </aside>
+              <!-- Archives Area -->
+              <aside id="archives-2">
+                <h3>Archives</h3>
+                <ul
+                  class="flex flex-col gap-y-2 list-disc mt-2 text-[#3772ff] [&>li]:bg-[#ffffff] font-semibold p-1 [&>li]:px-3 [&>li]:py-1 mb-6"
+                >
+                  <li>
+                    <a href="#">May 2014</a>
+                  </li>
+                  <li>
+                    <a href="#">April 2014</a>
+                  </li>
+                </ul>
+              </aside>
+              <!--Tag Cloud -->
+              <aside id="tag_cloud-3" class="widget widget_tag_cloud">
+                <h3 class="text-xl font-bold">Tags</h3>
+                <ul
+                  class="flex flex-col gap-y-2 list-disc mt-2 text-white [&>li]:bg-[#3772ff] p-1 [&>li]:px-3 [&>li]:py-1 mb-6"
+                >
+                  <li class="">
+                    <a href="lifestyle.html">Lifestyle</a>
+                  </li>
+                  <li class="">
+                    <a href="lifestyle.html">News</a>
+                  </li>
+                  <li class="">
+                    <a href="sport.html">Sport</a>
+                  </li>
+                  <li class="">
+                    <a href="technology.html">Technology</a>
+                  </li>
+                </ul>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer-->
+      <footer id="Footer" class="clearfix">
+        <!-- Footer - First area -->
+
+        <!-- Footer copyright-->
+        <div class="footer_copy">
+          <div class="container">
+            <div class="column one">
+              <a id="back_to_top" href="#" class="button button_left button_js"
+                ><span class="button_icon"
+                  ><i class="icon-up-open-big"></i></span
+              ></a>
+              <div class="copyright">
+                &copy; 2017 BeBlogger - BeTheme. All Rights Reserved.
+                <a target="_blank" rel="nofollow" href="http://bit.ly/1M6lijQ"
+                  >BeantownThemes</a
+                >
+              </div>
+              <!--Social info area-->
+              <ul class="social">
+                <li class="skype">
+                  <a href="#" title="Skype"><i class="icon-skype"></i></a>
+                </li>
+                <li class="facebook">
+                  <a href="#" title="Facebook"><i class="icon-facebook"></i></a>
+                </li>
+                <li class="googleplus">
+                  <a href="#" title="Google+"><i class="icon-gplus"></i></a>
+                </li>
+                <li class="twitter">
+                  <a href="#" title="Twitter"><i class="icon-twitter"></i></a>
+                </li>
+                <li class="vimeo">
+                  <a href="#" title="Vimeo"><i class="icon-vimeo"></i></a>
+                </li>
+                <li class="youtube">
+                  <a href="#" title="YouTube"><i class="icon-play"></i></a>
+                </li>
+                <li class="flickr">
+                  <a href="#" title="Flickr"><i class="icon-flickr"></i></a>
+                </li>
+                <li class="pinterest">
+                  <a href="#" title="Pinterest"
+                    ><i class="icon-pinterest"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- JS -->
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script src="../../js/jquery-migrate-3.4.0.min.js"></script>
+
+    <script src="../../js/mfn.menu.js"></script>
+    <script src="../../js/jquery.plugins.js"></script>
+    <script src="../../js/jquery.jplayer.min.js"></script>
+    <script src="../../js/animations/animations.js"></script>
+    <script src="../../js/scripts.js"></script>
+
+    <script>
+      jQuery(window).on("load", function () {
+        var retina = window.devicePixelRatio > 1 ? true : false;
+        if (retina) {
+          var retinaEl = jQuery("#logo img");
+          var retinaLogoW = retinaEl.width();
+          var retinaLogoH = retinaEl.height();
+          retinaEl
+            .attr("src", "images/logo.svg")
+            .width(retinaLogoW)
+            .height(retinaLogoH);
+        }
+      });
+    </script>
+  </body>
+</html>

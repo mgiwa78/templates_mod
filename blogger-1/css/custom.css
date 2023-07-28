@@ -1,0 +1,4 @@
+.image_frame .image_wrapper .mask:after {
+  display: none !important;
+  content: none !important;
+}

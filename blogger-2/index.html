@@ -66,10 +66,16 @@
           <div id="Top_bar">
             <div class="container">
               <div class="column one">
-                <div class="top_bar_left clearfix">
+                <div
+                  class="top_bar_left clearfix flex justify-start items-center w-full max-md:relative"
+                >
                   <!-- Logo-->
-                  <div class="logo">
-                    <a id="logo" href="index.html" title="BeBlogger 2 - BeTheme"
+                  <div class="logo max-md:absolute max-md:right-0">
+                    <a
+                      id="logo"
+                      class=""
+                      href="index.html"
+                      title="BeBlogger 2 - BeTheme"
                       ><img
                         class="logo-main scale-with-grid"
                         src="images/logo.svg"
@@ -103,7 +109,6 @@
                         <li>
                           <a href="about-us.html"><span>About us</span></a>
                         </li>
-               
                       </ul>
                     </nav>
                     <a class="responsive-menu-toggle" href="#"
@@ -152,7 +157,15 @@
                 style="padding-top: 50px; padding-bottom: 20px"
               >
                 <div class="section_wrapper mcb-section-inner">
-                  <div class="w-full h-[60vh] bg-black sticky mb-10"></div>
+                  <div
+                    class="w-full h-[60vh] sticky mb-10"
+                    style="
+                      background: url(./images/home_blogger2_hotnews-1200x480.jpg);
+                      background-position: center;
+                      background-size: cover;
+                      background-repeat: no-repeat;
+                    "
+                  ></div>
                   <div class="wrap mcb-wrap one clearfix">
                     <!-- One Full Row-->
                     <div
@@ -665,7 +678,7 @@
         <div class="footer_copy">
           <div class="container">
             <div class="column one">
-               <div class="copyright">&copy; 2023 BlBlogger</div>
+              <div class="copyright">&copy; 2023 BlBlogger</div>
               <!--Social info area-->
             </div>
           </div>

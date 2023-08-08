@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <title>Weboja</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="css/structure.css" />
+    <link rel="stylesheet" href="css/restaurant.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d"
+            }
+          }
+        }
+      };
+    </script>
+  </head>
+
+  <body
+    class="layout-full-width header-modern sticky-header sticky-white subheader-both-center no-content-padding"
+  >
+    <div id="Wrapper">
+      <div id="Header_wrapper" class="bg-fixed">
+        <header id="Header">
+          <div id="Action_bar">
+            <div class="container">
+              <div class="column one">
+                <ul class="contact_details"></ul>
+              </div>
+            </div>
+          </div>
+          <div id="Top_bar">
+            <div class="container">
+              <div class="column one">
+                <div class="top_bar_left clearfix">
+                  <div class="logo">
+                    <a id="logo" href="index.html" title="Weboja"
+                      ><img
+                        class="scale-with-grid"
+                        src="../images/weboja_logo.svg"
+                      />
+                    </a>
+                  </div>
+                  <div class="menu_wrapper">
+                    <nav id="menu">
+                      <ul id="menu-main-menu" class="menu">
+                        <li>
+                          <a href="index.html"><span>Home</span></a>
+                        </li>
+                        <li class="current_page_item">
+                          <a href="#"><span>Our restaurant</span></a>
+                        </li>
+                        <li>
+                          <a href="menu.html"><span>Menu</span></a>
+                        </li>
+                        <li>
+                          <a href="location.html"><span>Location</span></a>
+                        </li>
+                        <li>
+                          <a href="book-a-table.html"
+                            ><span>Book a table</span></a
+                          >
+                        </li>
+                      </ul>
+                    </nav>
+                    <a class="responsive-menu-toggle" href="#"
+                      ><i class="icon-menu"></i
+                    ></a>
+                  </div>
+                  <div class="search_wrapper">
+                    <form method="get">
+                      <i class="icon_search icon-search"></i
+                      ><a href="#" class="icon_close"
+                        ><i class="icon-cancel"></i
+                      ></a>
+                      <input
+                        type="text"
+                        class="field"
+                        name="s"
+                        id="s"
+                        placeholder="Enter your search"
+                      />
+                      <input
+                        type="submit"
+                        class="submit flv_disp_none"
+                        value=""
+                      />
+                    </form>
+                  </div>
+                </div>
+                <div class="top_bar_right">
+                  <div class="top_bar_right_wrapper">
+                    <a id="search_button" href="#"
+                      ><i class="icon-search"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div id="Subheader">
+          <div class="container">
+            <div class="column one">
+              <h1 class="title font-bold text-2xl">Our restaurant</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="Content">
+        <div class="content_wrapper clearfix">
+          <div class="sections_group">
+            <div class="entry-content">
+              <div
+                class="section column-margin-20px"
+                style="
+                  padding-top: 50px;
+                  padding-bottom: 20px;
+                  background-color: #fff;
+                "
+              >
+                <div class="section_wrapper clearfix">
+                  <div class="items_group clearfix">
+                    <div class="column one-second column_column">
+                      <div class="column_attr" style="font-size: 15px">
+                        <h2
+                          style="
+                            font-size: 60px;
+                            line-height: 55px;
+                            margin-top: 40px;
+                            font-weight: 700;
+                            color: #000;
+                          "
+                        >
+                          Quisque cursus et porttitor risus
+                        </h2>
+                        <hr class="no_line hrmargin_b_30" />
+                        Nullam viverra consectetuer. Quisque cursus et,
+                        porttitor risus. Aliquam sem. In hendrerit nulla quam
+                        nunc, accumsan congue. Lorem ipsum primis in nibh vel
+                        risus. Sed vel lectus. Ut sagittis, ipsum.
+                        <p class="big">
+                          Cum sociis natoque penatibus et ultrices volutpat.
+                          Nullam wisi ultricies a, gravida vitae, dapibus risus
+                          ante sodales lectus blandit eu, tempor diam pede
+                          cursus vitae, ultricies eu, faucibus quis, porttitor
+                          eros cursus lectus, pellentesque eget, bibendum a,
+                          gravida ullamcorper quam. Nullam viverra consectetuer.
+                          Quisque cursus et, porttitor risus. Aliquam sem. In
+                          hendrerit nulla quam nunc, accumsan congue. Lorem
+                          ipsum primis in nibh vel risus. Sed vel lectus. Ut
+                          sagittis, ipsum dolor quam.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="column one-second column_image">
+                      <div
+                        class="image_frame no_link scale-with-grid aligncenter no_border"
+                      >
+                        <div class="image_wrapper">
+                          <img
+                            class="scale-with-grid"
+                            src="../generatedImages/pexels-valeria-boltneva-1484516.jpg"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="section"
+                style="
+                  padding-top: 50px;
+                  padding-bottom: 10px;
+                  background-color: #f3f2e9;
+                "
+              >
+                <div class="section_wrapper clearfix">
+                  <div class="items_group clearfix">
+                    <div class="column one column_column">
+                      <div class="column_attr">
+                        <div
+                          id="gallery-1"
+                          class="gallery galleryid-32 gallery-columns-4 gallery-size-thumbnail"
+                        >
+                          <dl class="gallery-item">
+                            <dt class="gallery-icon landscape">
+                              <a href="images/chef_gallery_6.jpg"
+                                ><img
+                                  width="300"
+                                  height="300"
+                                  src="../generatedImages/pexels-michelle-riach-995743.jpg"
+                                  class="attachment-thumbnail"
+                              /></a>
+                            </dt>
+                            <dd></dd>
+                          </dl>
+                          <dl class="gallery-item">
+                            <dt class="gallery-icon landscape">
+                              <a href="images/chef_gallery_5.jpg"
+                                ><img
+                                  width="300"
+                                  height="300"
+                                  src="../generatedImages/pexels-yente-van-eynde-2403391.jpg"
+                                  class="attachment-thumbnail"
+                              /></a>
+                            </dt>
+                            <dd></dd>
+                          </dl>
+                          <dl class="gallery-item">
+                            <dt class="gallery-icon landscape">
+                              <a href="images/chef_gallery_3.jpg"
+                                ><img
+                                  width="300"
+                                  height="300"
+                                  src="../generatedImages/pexels-valeria-boltneva-827528.jpg"
+                                  class="attachment-thumbnail"
+                              /></a>
+                            </dt>
+                            <dd></dd>
+                          </dl>
+                          <dl class="gallery-item">
+                            <dt class="gallery-icon landscape">
+                              <a href="images/chef_gallery_2.jpg"
+                                ><img
+                                  width="300"
+                                  height="300"
+                                  src="../generatedImages/pexels-volkan-vardar-3887985.jpg"
+                                  class="attachment-thumbnail"
+                              /></a>
+                            </dt>
+                            <dd></dd>
+                          </dl>
+                          <br class="flv_clear_both" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="section"
+                style="padding-top: 50px; padding-bottom: 20px"
+              >
+                <div class="section_wrapper clearfix">
+                  <div class="items_group clearfix">
+                    <div class="column one-second column_column">
+                      <div class="column_attr">
+                        <h2
+                          style="
+                            font-size: 69px;
+                            line-height: 59px;
+                            color: black;
+                            font-weight: 700;
+                          "
+                        >
+                          Cum sociis natoque penatibus et ultrices
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="column one-second column_column">
+                      <div class="column_attr">
+                        <div
+                          style="
+                            border-left: 1px solid #ccc;
+                            padding-left: 10%;
+                            font-size: 20px;
+                          "
+                        >
+                          <p class="big">
+                            Nullam wisi ultricies a, gravida vitae, dapibus
+                            risus ante sodales lectus blandit eu, tempor diam
+                            pede cursus vitae, ultricies eu, faucibus quis,
+                            porttitor lectus, pellentesque eget, bibendum a,
+                            gravida ullamcorper quam. Nullam viverra
+                            consectetuer. Quisque cursus et, porttitor risus.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="column one column_divider">
+                      <hr class="no_line" />
+                    </div>
+                    <div class="column one-fourth column_icon_box">
+                      <div class="icon_box icon_position_top no_border">
+                        <div class="icon_wrapper">
+                          <div class="icon">
+                            <i class="icon-food-line"></i>
+                          </div>
+                        </div>
+                        <div class="desc_wrapper">
+                          <h4>Morbin semquis</h4>
+                          <div class="desc">
+                            Vitae adipiscing turpis. Aenean ligula nibh in,
+                            molestie id viverra a, dapibus at dolor.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="column one-fourth column_icon_box">
+                      <div class="icon_box icon_position_top no_border">
+                        <div class="icon_wrapper">
+                          <div class="icon">
+                            <i class="icon-water"></i>
+                          </div>
+                        </div>
+                        <div class="desc_wrapper">
+                          <h4>Vestibulum quis</h4>
+                          <div class="desc">
+                            Vitae adipiscing turpis. Aenean ligula nibh in,
+                            molestie id viverra a, dapibus at dolor.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="column one-fourth column_icon_box">
+                      <div class="icon_box icon_position_top no_border">
+                        <div class="icon_wrapper">
+                          <div class="icon">
+                            <i class="icon-lamp"></i>
+                          </div>
+                        </div>
+                        <div class="desc_wrapper">
+                          <h4>Proin et pharetra</h4>
+                          <div class="desc">
+                            Vitae adipiscing turpis. Aenean ligula nibh in,
+                            molestie id viverra a, dapibus at dolor.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="column one-fourth column_icon_box">
+                      <div class="icon_box icon_position_top no_border">
+                        <div class="icon_wrapper">
+                          <div class="icon">
+                            <i class="icon-cup-line"></i>
+                          </div>
+                        </div>
+                        <div class="desc_wrapper">
+                          <h4>Curabitur id erat</h4>
+                          <div class="desc">
+                            Vitae adipiscing turpis. Aenean ligula nibh in,
+                            molestie id viverra a, dapibus at dolor.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer id="Footer" class="clearfix">
+        <div class="footer_copy">
+          <div class="container">
+            <div class="column one">
+              <a id="back_to_top" href="#" class="button button_left button_js"
+                ><span class="button_icon"
+                  ><i class="icon-up-open-big"></i></span
+              ></a>
+              <div class="copyright">&copy; 2023 Weboja.</div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/jquery-migrate-3.4.0.min.js"></script>
+
+    <script src="../js/mfn.menu.js"></script>
+    <script src="../js/jquery.plugins.js"></script>
+    <script src="../js/jquery.jplayer.min.js"></script>
+    <script src="../js/animations/animations.js"></script>
+    <script src="../js/scripts.js"></script>
+
+    <script>
+      jQuery(window).on("load", function () {
+        var retina = window.devicePixelRatio > 1 ? true : false;
+        if (retina) {
+          var retinaEl = jQuery("#logo img");
+          var retinaLogoW = retinaEl.width();
+          var retinaLogoH = retinaEl.height();
+          retinaEl
+            .attr("src", "../images/weboja_logo.svg")
+            .width(retinaLogoW)
+            .height(retinaLogoH);
+        }
+      });
+    </script>
+  </body>
+</html>

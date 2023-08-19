@@ -22,10 +22,9 @@
     <link rel="shortcut icon" href="images/favicon.ico">
 
     <!-- FONTS -->
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700'>
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:100,300,400,400italic,700'>
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700'>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- CSS -->
     <link rel='stylesheet' href='../../css/global.css'>
     <link rel='stylesheet' href='css/structure.css'>
@@ -34,7 +33,7 @@
 
 </head>
 
-<body class="layout-full-width header-split minimalist-header sticky-header sticky-dark hide-title-area subheader-title-left button-stroke">
+<body class="archive tax-portfolio-types layout-full-width header-split minimalist-header sticky-header sticky-dark hide-title-area subheader-title-left button-stroke">
     <!-- Main Theme Wrapper -->
     <div id="Wrapper">
         <!-- Header Wrapper -->
@@ -59,7 +58,7 @@
                                             <li>
                                                 <a href="../../index-jeweler.html"><span>HOME</span></a>
                                             </li>
-                                            <li class="current_page_item">
+                                            <li>
                                                 <a href="products.html"><span>PRODUCTS</span></a>
                                             </li>
                                         </ul>
@@ -101,7 +100,7 @@
                     <div class="section section-filters">
                         <div class="section_wrapper clearfix">
                             <!--  Filter Area -->
-                            <div id="Filters" class="column one isotope-filters">
+                            <div id="Filters" class="column one">
                                 <ul class="filters_buttons">
                                     <li class="label">
                                         Filter by
@@ -110,16 +109,16 @@
                                         <a class="open" href="#"><i class="icon-docs"></i>Categories<i class="icon-down-dir"></i></a>
                                     </li>
                                     <li class="reset">
-                                        <a class="close" data-rel="*" href="../../index-jeweler.html"><i class="icon-cancel"></i> Show all</a>
+                                        <a class="close" data-rel="*" href="portfolio-item.html"><i class="icon-cancel"></i> Show all</a>
                                     </li>
                                 </ul>
-                                <div class="filters_wrapper" data-cat="">
+                                <div class="filters_wrapper">
                                     <ul class="categories">
-                                        <li class="diamonds">
-                                            <a data-rel=".category-diamonds" href="category-diamonds.html">Diamonds</a>
+                                        <li class="cat-item cat-item-5">
+                                            <a href="category-diamonds.html" title="View all posts filed under Diamonds">Diamonds</a>
                                         </li>
-                                        <li class="gold">
-                                            <a data-rel=".category-gold" href="category-gold.html">Gold</a>
+                                        <li class="cat-item cat-item-6 current-cat">
+                                            <a href="category-gold.html" title="View all posts filed under Gold">Gold</a>
                                         </li>
                                         <li class="close">
                                             <a href="#"><i class="icon-cancel"></i></a>
@@ -134,50 +133,7 @@
                             <!-- One full width row-->
                             <div class="column one column_portfolio">
                                 <div class="portfolio_wrapper isotope_wrapper">
-                                    <ul class="portfolio_group lm_wrapper isotope flat col-4">
-                                        <!-- Portfolio item -->
-                                        <li class="portfolio-item isotope-item category-diamonds tall">
-                                            <div class="portfolio-item-fw-bg">
-                                                <div class="portfolio-item-fw-wrapper">
-                                                    <div class="list_style_header">
-                                                        <h3 class="entry-title"><a href="portfolio-item.html">Aliquam eratac</a></h3>
-                                                        <div class="links_wrapper">
-                                                            <a href="#" class="button button_js portfolio_prev_js"><span class="button_icon"><i class="icon-up-open"></i></span></a><a href="#" class="button button_js portfolio_next_js"><span class="button_icon"><i class="icon-down-open"></i></span></a><a href="portfolio-item.html" class="button button_left button_theme button_js"><span class="button_icon"><i class="icon-link"></i></span><span class="button_label">Read more</span></a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="image_frame scale-with-grid">
-                                                        <div class="image_wrapper">
-                                                            <a href="portfolio-item.html">
-                                                                <div class="mask"></div><img width="479" height="447" src="images/home_jeweller_product1.png" class="scale-with-grid wp-post-image" />
-                                                            </a>
-                                                            <div class="image_links double">
-                                                                <a href="images/home_jeweller_product1.png" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a><a href="portfolio-item.html" class="link"><i class="icon-link"></i></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="desc">
-                                                        <div class="title_wrapper">
-                                                            <h5 class="entry-title"><a href="portfolio-item.html">Aliquam eratac</a></h5>
-                                                            <div class="button-love">
-                                                                <a href="#" class="mfn-love" data-id="2189"><span class="icons-wrapper"><i class="icon-heart-empty-fa"></i><i class="icon-heart-fa"></i></span><span class="label">40</span></a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="details-wrapper">
-                                                            <dl>
-                                                                <dt>
-																		Date
-																	</dt>
-                                                                <dd>
-                                                                    May 1, 2014
-                                                                </dd>
-                                                                <dd></dd>
-                                                            </dl>
-                                                        </div>
-                                                        <div class="desc-wrapper"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
+                                    <ul class="portfolio_group isotope flat col-4">
                                         <!-- Portfolio item -->
                                         <li class="portfolio-item isotope-item category-gold">
                                             <div class="portfolio-item-fw-bg">
@@ -222,92 +178,6 @@
                                             </div>
                                         </li>
                                         <!-- Portfolio item -->
-                                        <li class="portfolio-item isotope-item category-diamonds wide">
-                                            <div class="portfolio-item-fw-bg">
-                                                <div class="portfolio-item-fw-wrapper">
-                                                    <div class="list_style_header">
-                                                        <h3 class="entry-title"><a href="portfolio-item.html">Curabitur et ligula</a></h3>
-                                                        <div class="links_wrapper">
-                                                            <a href="#" class="button button_js portfolio_prev_js"><span class="button_icon"><i class="icon-up-open"></i></span></a><a href="#" class="button button_js portfolio_next_js"><span class="button_icon"><i class="icon-down-open"></i></span></a><a href="portfolio-item.html" class="button button_left button_theme button_js"><span class="button_icon"><i class="icon-link"></i></span><span class="button_label">Read more</span></a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="image_frame scale-with-grid">
-                                                        <div class="image_wrapper">
-                                                            <a href="portfolio-item.html">
-                                                                <div class="mask"></div><img width="479" height="447" src="images/home_jeweller_product3.png" class="scale-with-grid wp-post-image" />
-                                                            </a>
-                                                            <div class="image_links double">
-                                                                <a href="images/home_jeweller_product3.png" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a><a href="portfolio-item.html" class="link"><i class="icon-link"></i></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="desc">
-                                                        <div class="title_wrapper">
-                                                            <h5 class="entry-title"><a href="portfolio-item.html">Curabitur et ligula</a></h5>
-                                                            <div class="button-love">
-                                                                <a href="#" class="mfn-love" data-id="2187"><span class="icons-wrapper"><i class="icon-heart-empty-fa"></i><i class="icon-heart-fa"></i></span><span class="label">75</span></a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="details-wrapper">
-                                                            <dl>
-                                                                <dt>
-																		Date
-																	</dt>
-                                                                <dd>
-                                                                    April 29, 2014
-                                                                </dd>
-                                                                <dd></dd>
-                                                            </dl>
-                                                        </div>
-                                                        <div class="desc-wrapper"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <!-- Portfolio item -->
-                                        <li class="portfolio-item isotope-item category-diamonds">
-                                            <div class="portfolio-item-fw-bg">
-                                                <div class="portfolio-item-fw-wrapper">
-                                                    <div class="list_style_header">
-                                                        <h3 class="entry-title"><a href="portfolio-item.html">Integer aliquam purus</a></h3>
-                                                        <div class="links_wrapper">
-                                                            <a href="#" class="button button_js portfolio_prev_js"><span class="button_icon"><i class="icon-up-open"></i></span></a><a href="#" class="button button_js portfolio_next_js"><span class="button_icon"><i class="icon-down-open"></i></span></a><a href="portfolio-item.html" class="button button_left button_theme button_js"><span class="button_icon"><i class="icon-link"></i></span><span class="button_label">Read more</span></a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="image_frame scale-with-grid">
-                                                        <div class="image_wrapper">
-                                                            <a href="portfolio-item.html">
-                                                                <div class="mask"></div><img width="479" height="447" src="images/home_jeweller_product4.png" class="scale-with-grid wp-post-image" />
-                                                            </a>
-                                                            <div class="image_links double">
-                                                                <a href="images/home_jeweller_product4.png" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a><a href="portfolio-item.html" class="link"><i class="icon-link"></i></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="desc">
-                                                        <div class="title_wrapper">
-                                                            <h5 class="entry-title"><a href="portfolio-item.html">Integer aliquam purus</a></h5>
-                                                            <div class="button-love">
-                                                                <a href="#" class="mfn-love" data-id="2190"><span class="icons-wrapper"><i class="icon-heart-empty-fa"></i><i class="icon-heart-fa"></i></span><span class="label">100</span></a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="details-wrapper">
-                                                            <dl>
-                                                                <dt>
-																		Date
-																	</dt>
-                                                                <dd>
-                                                                    April 27, 2014
-                                                                </dd>
-                                                                <dd></dd>
-                                                            </dl>
-                                                        </div>
-                                                        <div class="desc-wrapper"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <!-- Portfolio item -->
                                         <li class="portfolio-item isotope-item category-gold">
                                             <div class="portfolio-item-fw-bg">
                                                 <div class="portfolio-item-fw-wrapper">
@@ -341,49 +211,6 @@
 																	</dt>
                                                                 <dd>
                                                                     April 26, 2014
-                                                                </dd>
-                                                                <dd></dd>
-                                                            </dl>
-                                                        </div>
-                                                        <div class="desc-wrapper"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <!-- Portfolio item -->
-                                        <li class="portfolio-item isotope-item category-diamonds">
-                                            <div class="portfolio-item-fw-bg">
-                                                <div class="portfolio-item-fw-wrapper">
-                                                    <div class="list_style_header">
-                                                        <h3 class="entry-title"><a href="portfolio-item.html">Eleifend justo vel</a></h3>
-                                                        <div class="links_wrapper">
-                                                            <a href="#" class="button button_js portfolio_prev_js"><span class="button_icon"><i class="icon-up-open"></i></span></a><a href="#" class="button button_js portfolio_next_js"><span class="button_icon"><i class="icon-down-open"></i></span></a><a href="portfolio-item.html" class="button button_left button_theme button_js"><span class="button_icon"><i class="icon-link"></i></span><span class="button_label">Read more</span></a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="image_frame scale-with-grid">
-                                                        <div class="image_wrapper">
-                                                            <a href="portfolio-item.html">
-                                                                <div class="mask"></div><img width="479" height="447" src="images/home_jeweller_product8.png" class="scale-with-grid wp-post-image" />
-                                                            </a>
-                                                            <div class="image_links double">
-                                                                <a href="images/home_jeweller_product8.png" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a><a href="portfolio-item.html" class="link"><i class="icon-link"></i></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="desc">
-                                                        <div class="title_wrapper">
-                                                            <h5 class="entry-title"><a href="portfolio-item.html">Eleifend justo vel</a></h5>
-                                                            <div class="button-love">
-                                                                <a href="#" class="mfn-love" data-id="2191"><span class="icons-wrapper"><i class="icon-heart-empty-fa"></i><i class="icon-heart-fa"></i></span><span class="label">28</span></a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="details-wrapper">
-                                                            <dl>
-                                                                <dt>
-																		Date
-																	</dt>
-                                                                <dd>
-                                                                    April 25, 2014
                                                                 </dd>
                                                                 <dd></dd>
                                                             </dl>
@@ -542,7 +369,7 @@
                 var retinaEl = jQuery("#logo img");
                 var retinaLogoW = retinaEl.width();
                 var retinaLogoH = retinaEl.height();
-                retinaEl.attr("src","images/retina_jeweler.png").width(retinaLogoW).height(retinaLogoH)
+                retinaEl.attr("src","../../images/retina_jeweler.png").width(retinaLogoW).height(retinaLogoH)
             }
         });
     </script>

@@ -977,13 +977,13 @@ a.mfn-link-6:before {
 #Header_creative,
 #Top_bar #menu,
 .sticky-tb-color #Top_bar.is-sticky {
-  background-color: #fff;
+  background-color: #ffd6e3;
 }
 #Top_bar .top_bar_right:before {
-  background-color: #e3e3e3;
+  background-color: #ffd6e3;
 }
 #Header .top_bar_right {
-  background-color: #f5f5f5;
+  background-color: #ffd6e3;
 }
 #Top_bar .top_bar_right a {
   color: #444;

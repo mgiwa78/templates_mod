@@ -24,26 +24,11 @@
     <link rel="shortcut icon" href="../images/favicon.svg" />
 
     <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
       rel="stylesheet"
-      href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700"
-    />
-    <link
-      rel="stylesheet"
-      href="http://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700"
-    />
-    <link
-      rel="stylesheet"
-      href="http://fonts.googleapis.com/css?family=Caudex:400,400italic,700"
-    />
-    <link
-      rel="stylesheet"
-      id="Cuprum-css"
-      href="http://fonts.googleapis.com/css?family=Cuprum:400,400italic,700"
-    />
-    <link
-      rel="stylesheet"
-      href="http://fonts.googleapis.com/css?family=Lato:100,300,400"
     />
 
     <!-- CSS -->
@@ -68,17 +53,24 @@
               <div class="column one">
                 <div class="top_bar_left clearfix">
                   <div class="logo">
-                    <a id="logo" href="#" title="BeMakeup - BeTheme"
-                      ><img
-                        class="logo-main scale-with-grid"
-                        src="images/makeup.png"
-                      /><img
+                    <a id="logo" href="#" title="BeMakeup - BeTheme">
+                      <div
                         class="logo-sticky scale-with-grid"
-                        src="images/sticky-makeup.png"
-                      /><img
-                        class="logo-mobile scale-with-grid"
-                        src="images/sticky-makeup.png"
-                      />
+                        style="padding: 10px 10px"
+                      >
+                        <svg
+                          width="194"
+                          height="44"
+                          viewBox="0 0 194 44"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M39.696 1.032V36H32.544V15.888C32.544 15.424 32.552 14.92 32.568 14.376C32.6 13.832 32.648 13.28 32.712 12.72L23.424 30.696C23.136 31.256 22.744 31.68 22.248 31.968C21.768 32.256 21.216 32.4 20.592 32.4H19.488C18.864 32.4 18.304 32.256 17.808 31.968C17.328 31.68 16.944 31.256 16.656 30.696L7.368 12.672C7.416 13.248 7.456 13.816 7.488 14.376C7.52 14.92 7.536 15.424 7.536 15.888V36H0.384V1.032H6.576C6.928 1.032 7.232 1.04 7.488 1.056C7.76 1.072 8 1.12 8.208 1.2C8.416 1.28 8.6 1.408 8.76 1.584C8.936 1.744 9.104 1.976 9.264 2.28L18.264 20.016C18.584 20.624 18.888 21.256 19.176 21.912C19.48 22.568 19.768 23.24 20.04 23.928C20.312 23.224 20.592 22.536 20.88 21.864C21.184 21.192 21.504 20.552 21.84 19.944L30.816 2.28C30.976 1.976 31.136 1.744 31.296 1.584C31.472 1.408 31.664 1.28 31.872 1.2C32.08 1.12 32.312 1.072 32.568 1.056C32.84 1.04 33.152 1.032 33.504 1.032H39.696ZM62.0025 25.872C60.5145 25.936 59.2905 26.064 58.3305 26.256C57.3705 26.448 56.6105 26.688 56.0505 26.976C55.4905 27.264 55.0985 27.592 54.8745 27.96C54.6665 28.328 54.5625 28.728 54.5625 29.16C54.5625 30.008 54.7945 30.608 55.2585 30.96C55.7225 31.296 56.4025 31.464 57.2985 31.464C58.2585 31.464 59.0985 31.296 59.8185 30.96C60.5385 30.624 61.2665 30.08 62.0025 29.328V25.872ZM48.6105 14.568C50.1145 13.24 51.7785 12.256 53.6025 11.616C55.4425 10.96 57.4105 10.632 59.5065 10.632C61.0105 10.632 62.3625 10.88 63.5625 11.376C64.7785 11.856 65.8025 12.536 66.6345 13.416C67.4825 14.28 68.1305 15.312 68.5785 16.512C69.0265 17.712 69.2505 19.024 69.2505 20.448V36H65.8425C65.1385 36 64.6025 35.904 64.2345 35.712C63.8825 35.52 63.5865 35.12 63.3465 34.512L62.8185 33.144C62.1945 33.672 61.5945 34.136 61.0185 34.536C60.4425 34.936 59.8425 35.28 59.2185 35.568C58.6105 35.84 57.9545 36.04 57.2505 36.168C56.5625 36.312 55.7945 36.384 54.9465 36.384C53.8105 36.384 52.7785 36.24 51.8505 35.952C50.9225 35.648 50.1305 35.208 49.4745 34.632C48.8345 34.056 48.3385 33.344 47.9865 32.496C47.6345 31.632 47.4585 30.64 47.4585 29.52C47.4585 28.624 47.6825 27.72 48.1305 26.808C48.5785 25.88 49.3545 25.04 50.4585 24.288C51.5625 23.52 53.0505 22.88 54.9225 22.368C56.7945 21.856 59.1545 21.568 62.0025 21.504V20.448C62.0025 18.992 61.6985 17.944 61.0905 17.304C60.4985 16.648 59.6505 16.32 58.5465 16.32C57.6665 16.32 56.9465 16.416 56.3865 16.608C55.8265 16.8 55.3225 17.016 54.8745 17.256C54.4425 17.496 54.0185 17.712 53.6025 17.904C53.1865 18.096 52.6905 18.192 52.1145 18.192C51.6025 18.192 51.1705 18.064 50.8185 17.808C50.4665 17.552 50.1785 17.248 49.9545 16.896L48.6105 14.568ZM85.5263 0.0719976V20.208H86.6303C87.0943 20.208 87.4463 20.144 87.6863 20.016C87.9263 19.872 88.1663 19.64 88.4063 19.32L93.1103 12.312C93.3983 11.912 93.7263 11.616 94.0943 11.424C94.4623 11.216 94.9343 11.112 95.5103 11.112H102.326L95.8943 19.968C95.2863 20.768 94.5663 21.424 93.7343 21.936C94.1023 22.208 94.4383 22.528 94.7423 22.896C95.0463 23.248 95.3343 23.648 95.6063 24.096L102.614 36H95.8943C95.3343 36 94.8543 35.912 94.4543 35.736C94.0543 35.544 93.7183 35.216 93.4463 34.752L88.7423 25.944C88.5183 25.544 88.2863 25.288 88.0463 25.176C87.8063 25.048 87.4463 24.984 86.9663 24.984H85.5263V36H78.0863V0.0719976H85.5263ZM123.334 20.568C123.334 19.976 123.254 19.4 123.094 18.84C122.95 18.28 122.702 17.784 122.35 17.352C122.014 16.904 121.566 16.544 121.006 16.272C120.446 16 119.766 15.864 118.966 15.864C117.558 15.864 116.454 16.272 115.654 17.088C114.854 17.888 114.326 19.048 114.07 20.568H123.334ZM113.974 24.888C114.214 26.968 114.846 28.48 115.87 29.424C116.894 30.352 118.214 30.816 119.83 30.816C120.694 30.816 121.438 30.712 122.062 30.504C122.686 30.296 123.238 30.064 123.718 29.808C124.214 29.552 124.662 29.32 125.062 29.112C125.478 28.904 125.91 28.8 126.358 28.8C126.95 28.8 127.398 29.016 127.702 29.448L129.862 32.112C129.094 32.992 128.262 33.712 127.366 34.272C126.486 34.816 125.574 35.248 124.63 35.568C123.702 35.872 122.766 36.08 121.822 36.192C120.894 36.32 120.006 36.384 119.158 36.384C117.414 36.384 115.774 36.104 114.238 35.544C112.718 34.968 111.382 34.12 110.23 33C109.094 31.88 108.19 30.488 107.518 28.824C106.862 27.16 106.534 25.224 106.534 23.016C106.534 21.352 106.814 19.776 107.374 18.288C107.95 16.8 108.766 15.496 109.822 14.376C110.894 13.256 112.182 12.368 113.686 11.712C115.206 11.056 116.918 10.728 118.822 10.728C120.47 10.728 121.974 10.984 123.334 11.496C124.71 12.008 125.886 12.752 126.862 13.728C127.854 14.704 128.622 15.904 129.166 17.328C129.726 18.736 130.006 20.336 130.006 22.128C130.006 22.688 129.982 23.144 129.934 23.496C129.886 23.848 129.798 24.128 129.67 24.336C129.542 24.544 129.366 24.688 129.142 24.768C128.934 24.848 128.662 24.888 128.326 24.888H113.974ZM160.129 11.112V36H155.521C154.593 36 153.985 35.584 153.697 34.752L153.265 33.312C152.785 33.776 152.289 34.2 151.777 34.584C151.265 34.952 150.713 35.272 150.121 35.544C149.545 35.8 148.913 36 148.225 36.144C147.553 36.304 146.817 36.384 146.017 36.384C144.657 36.384 143.449 36.152 142.393 35.688C141.353 35.208 140.473 34.544 139.753 33.696C139.033 32.848 138.489 31.848 138.121 30.696C137.753 29.544 137.569 28.28 137.569 26.904V11.112H145.009V26.904C145.009 28.136 145.289 29.088 145.849 29.76C146.409 30.432 147.233 30.768 148.321 30.768C149.137 30.768 149.897 30.6 150.601 30.264C151.321 29.912 152.017 29.44 152.689 28.848V11.112H160.129ZM176.704 29.232C177.264 29.84 177.872 30.272 178.528 30.528C179.184 30.784 179.872 30.912 180.592 30.912C181.28 30.912 181.912 30.776 182.488 30.504C183.064 30.232 183.56 29.8 183.976 29.208C184.408 28.6 184.744 27.816 184.984 26.856C185.224 25.896 185.344 24.728 185.344 23.352C185.344 22.04 185.248 20.936 185.056 20.04C184.864 19.144 184.592 18.424 184.24 17.88C183.904 17.32 183.496 16.92 183.016 16.68C182.536 16.44 182 16.32 181.408 16.32C180.32 16.32 179.424 16.52 178.72 16.92C178.016 17.32 177.344 17.904 176.704 18.672V29.232ZM176.248 14.184C177.224 13.144 178.328 12.296 179.56 11.64C180.808 10.968 182.288 10.632 184 10.632C185.296 10.632 186.496 10.92 187.6 11.496C188.704 12.072 189.656 12.904 190.456 13.992C191.256 15.08 191.88 16.416 192.328 18C192.792 19.568 193.024 21.352 193.024 23.352C193.024 25.224 192.76 26.952 192.232 28.536C191.72 30.12 190.992 31.496 190.048 32.664C189.12 33.832 188 34.744 186.688 35.4C185.392 36.056 183.952 36.384 182.368 36.384C181.072 36.384 179.984 36.2 179.104 35.832C178.224 35.464 177.424 34.968 176.704 34.344V43.896H169.264V11.112H173.872C174.8 11.112 175.408 11.528 175.696 12.36L176.248 14.184Z"
+                            fill="#F41101"
+                          />
+                        </svg>
+                      </div>
                     </a>
                   </div>
                   <div class="menu_wrapper">
@@ -91,25 +83,14 @@
                           <a href="#about"><span>About me</span></a>
                         </li>
                         <li>
-                          <a href="#offer"><span>My offer</span></a>
+                          <a href="#offer"><span>My Services</span></a>
                         </li>
-                        <li>
-                          <a href="#gallery"><span>Gallery</span></a>
-                        </li>
+
                         <li>
                           <a href="#pricing"><span>Pricing</span></a>
                         </li>
                         <li>
                           <a href="#contact"><span>Contact me</span></a>
-                        </li>
-                        <li>
-                          <a target="_blank" href="http://bit.ly/1M6lijQ"
-                            ><span
-                              ><span style="padding: 0; color: #3e66ad"
-                                >Buy now</span
-                              ></span
-                            ></a
-                          >
                         </li>
                       </ul>
                     </nav>
@@ -148,9 +129,10 @@
             <div
               id="rev_slider_1_1_wrapper"
               class="rev_slider_wrapper fullwidthbanner-container"
+              data-source="gallery"
               style="
                 margin: 0px auto;
-                background-color: transparent;
+                background: transparent;
                 padding: 0px;
                 margin-top: 0px;
                 margin-bottom: 0px;
@@ -160,11 +142,12 @@
                 id="rev_slider_1_1"
                 class="rev_slider fullwidthabanner"
                 style="display: none"
-                data-version="5.2.5"
+                data-version="5.4.8.3"
               >
                 <ul>
                   <li
                     data-index="rs-1"
+                    style="position: relative"
                     data-transition="fade"
                     data-slotamount="default"
                     data-hideafterloop="0"
@@ -175,95 +158,104 @@
                     data-rotate="0"
                     data-saveperformance="off"
                     data-title="Slide"
-                    data-param1=""
-                    data-param2=""
-                    data-param3=""
-                    data-param4=""
-                    data-param5=""
-                    data-param6=""
-                    data-param7=""
-                    data-param8=""
-                    data-param9=""
-                    data-param10=""
-                    data-description=""
+                    data-param1
+                    data-param2
+                    data-param3
+                    data-param4
+                    data-param5
+                    data-param6
+                    data-param7
+                    data-param8
+                    data-param9
+                    data-param10
+                    data-description
                   >
+                    <div
+                      style="
+                        display: block;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        z-index: 30;
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgba(0, 0, 0, 0.2);
+                      "
+                    ></div>
                     <img
-                      src="../images/pexels-klaudia-ekert-3286389.jpg"
-                      title="home_makeup_sliderbg"
+                      src="../images/pexels-mart-production-7290089.jpg"
+                      title="home_dentist3_pic26"
                       width="1920"
-                      height="940"
+                      height="880"
                       data-bgposition="center center"
                       data-bgfit="cover"
                       data-bgrepeat="no-repeat"
+                      data-bgparallax="8"
                       class="rev-slidebg"
                     />
                     <div
-                      class="tp-caption mfnrs_makeup_medium_dark tp-resizeme"
+                      class="tp-caption tp-resizeme rs-parallaxlevel-4"
                       id="slide-1-layer-1"
-                      data-x="right"
-                      data-hoffset="60"
-                      data-y="190"
+                      data-x="40"
+                      data-y="250"
                       data-width="['auto']"
                       data-height="['auto']"
-                      data-transform_idle="o:1;"
-                      data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:2000;e:Power2.easeOut;"
-                      data-transform_out="opacity:0;s:300;"
-                      data-start="500"
-                      data-splitin="none"
-                      data-color="#F41101"
-                      data-splitout="none"
+                      data-type="text"
                       data-responsive_offset="on"
-                      style="z-index: 5; white-space: nowrap"
+                      data-frames='[{"delay":200,"speed":1000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                      data-textAlign="['inherit','inherit','inherit','inherit']"
+                      data-paddingtop="[0,0,0,0]"
+                      data-paddingright="[0,0,0,0]"
+                      data-paddingbottom="[0,0,0,0]"
+                      data-paddingleft="[0,0,0,0]"
+                      style="
+                        z-index: 30;
+                        white-space: nowrap;
+                        font-size: 95px;
+                        line-height: 95px;
+                        font-weight: 400;
+                        color: #fff;
+                        letter-spacing: 1px;
+                        font-family: Lato, sans-serif;
+                      "
                     >
-                      Make-up artist
+                      Let's help you create
+                      <br />
+                      the YOU <br />
+                      you imagine
                     </div>
                     <div
-                      class="tp-caption mfnrs_makeup_large_dark tp-resizeme"
+                      class="tp-caption tp-resizeme rs-parallaxlevel-4"
                       id="slide-1-layer-2"
-                      data-x="right"
-                      data-hoffset="60"
-                      data-y="230"
+                      data-x="40"
+                      data-y="575"
                       data-width="['auto']"
                       data-height="['auto']"
-                      data-transform_idle="o:1;"
-                      data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:2000;e:Power2.easeOut;"
-                      data-transform_out="opacity:0;s:300;"
-                      data-start="700"
-                      data-color="#F41101"
-                      data-splitin="none"
-                      data-splitout="none"
+                      data-type="text"
                       data-responsive_offset="on"
-                      style="z-index: 6; white-space: nowrap; font-size: 170px"
+                      data-frames='[{"delay":400,"speed":1000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                      data-textAlign="['inherit','inherit','inherit','inherit']"
+                      data-paddingtop="[0,0,0,0]"
+                      data-paddingright="[0,0,0,0]"
+                      data-paddingbottom="[0,0,0,0]"
+                      data-paddingleft="[0,0,0,0]"
+                      style="
+                        z-index: 30;
+                        white-space: nowrap;
+                        font-size: 20px;
+                        line-height: 32px;
+                        font-weight: 400;
+                        color: #fff;
+                        letter-spacing: 0px;
+                        font-family: Lato, sans-serif;
+                      "
                     >
-                      Jessica
+                      Aliquam erat ac ipsum integer
                       <br />
-                      Mess
+                      justo vel bibendum sapien
+                      <br />
+                      <span style="color: #fff">wisi ultricies</span>
                     </div>
-                    <a
-                      class="tp-caption tp-resizeme scroll"
-                      href="#offer"
-                      target="_self"
-                      id="slide-1-layer-4"
-                      data-x="right"
-                      data-hoffset="60"
-                      data-y="480"
-                      data-width="['none','none','none','none']"
-                      data-height="['none','none','none','none']"
-                      data-transform_idle="o:1;"
-                      data-transform_in="y:50px;opacity:0;s:1200;e:Power2.easeInOut;"
-                      data-transform_out="opacity:0;s:300;"
-                      data-start="900"
-                      data-actions=""
-                      data-responsive_offset="on"
-                      style="z-index: 7"
-                      ><img
-                        src="images/home_makeup_slider_arrow.png"
-                        width="21"
-                        height="200"
-                        data-ww="21px"
-                        data-hh="200px"
-                      />
-                    </a>
                   </li>
                 </ul>
                 <div
@@ -289,29 +281,31 @@
                     <div class="mcb-wrap-inner">
                       <div class="column mcb-column one column_column">
                         <div class="column_attr">
-                          <h2>— Hi I'm Jessica a make-up artist</h2>
+                          <h2 style="font-weight: 600">
+                            — Hi I'm Jessica a make-up artist
+                          </h2>
                         </div>
                       </div>
                       <div class="column mcb-column one column_divider">
                         <hr class="no_line" style="margin: 0 auto 20px" />
                       </div>
-                      <div class="column mcb-column one-third column_image">
+                      <div class="column mcb-column one-second column_image">
                         <div
                           class="image_frame image_item no_link scale-with-grid aligncenter no_border"
                         >
                           <div class="image_wrapper">
                             <img
                               class="scale-with-grid"
-                              src="../images/pexels-akash-singh-4702570.jpg"
+                              src="../images/pexels-cottonbro-studio-4620843.jpg"
                               width="780"
                               height="886"
                             />
                           </div>
                         </div>
                       </div>
-                      <div class="column mcb-column one-third column_column">
+                      <div class="column mcb-column one-second column_column">
                         <div class="column_attr" style="padding: 20px 8%">
-                          <h4>Read to perfection</h4>
+                          <h4 style="font-size: 38px">Read to perfection</h4>
                           <hr class="no_line" style="margin: 0 auto 25px" />
                           <p class="big">
                             Lorem ipsum dolor sit amet, consectetur adi pisicing
@@ -329,382 +323,6 @@
                           </p>
                         </div>
                       </div>
-                      <div class="column mcb-column one-third column_column">
-                        <div class="column_attr" style="padding: 20px 8%">
-                          <h4>My passion</h4>
-                          <hr class="no_line" style="margin: 0 auto 25px" />
-                          <p class="big">
-                            Nulla facilisi. Phasellus consequat. Integer nonummy
-                            gravida. Pellentesque orci ultricies porta ligula
-                            eget accumsan eget, eros. Mauris luctus euismod.
-                            Donec magna.
-                          </p>
-                          <p>
-                            Phasellus mollis. Proin odio. Aliquam luctus et
-                            ultrices posuere orci luctus et cursus ut, lectus.
-                            Nullam risus velit, scelerisque mattis vel.
-                          </p>
-                          <hr class="no_line" style="margin: 0 auto 30px" />
-                          <p style="font-size: 35px; line-height: 35px">
-                            <a href="#" style="color: #f41101"
-                              ><i class="icon-facebook-circled"></i></a
-                            ><a href="#" style="color: #f41101"
-                              ><i class="icon-gplus-circled"></i></a
-                            ><a href="#" style="color: #f41101"
-                              ><i class="icon-pinterest-circled"></i></a
-                            ><a href="#" style="color: #f41101"
-                              ><i class="icon-linkedin-circled"></i
-                            ></a>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="section mcb-section"
-                id="offer"
-                style="padding-top: 70px; padding-bottom: 0px"
-              >
-                <div class="section_wrapper mcb-section-inner">
-                  <div class="wrap mcb-wrap one valign-top clearfix">
-                    <div class="mcb-wrap-inner">
-                      <div class="column mcb-column one column_column">
-                        <div class="column_attr">
-                          <h2>— What can I do for you?</h2>
-                        </div>
-                      </div>
-                      <div class="column mcb-column one column_divider">
-                        <hr class="no_line" style="margin: 0 auto 20px" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="section mcb-section equal-height"
-                style="padding-top: 0px; padding-bottom: 0px"
-              >
-                <div class="section_wrapper mcb-section-inner">
-                  <div class="wrap mcb-wrap one valign-top clearfix">
-                    <div class="mcb-wrap-inner">
-                      <div class="column mcb-column one-fourth column_column">
-                        <div
-                          class="column_attr align_center"
-                          style="
-                            padding: 40px 10% 25px;
-                            border: 2px solid #f41101;
-                          "
-                        >
-                          <div
-                            class="image_frame image_item no_link scale-with-grid alignnone no_border"
-                          >
-                            <div class="image_wrapper">
-                              <img
-                                class="scale-with-grid"
-                                src="images/home_makeup_offer_icon1.png"
-                                width="780"
-                                height="540"
-                              />
-                            </div>
-                          </div>
-                          <hr class="no_line" style="margin: 0 auto 25px" />
-                          <div
-                            class="image_frame image_item no_link scale-with-grid alignnone no_border"
-                          >
-                            <div class="image_wrapper">
-                              <img
-                                class="scale-with-grid"
-                                src="images/home_makeup_sep.png"
-                                width="100"
-                                height="1"
-                              />
-                            </div>
-                          </div>
-                          <hr class="no_line" style="margin: 0 auto 25px" />
-                          <p class="big">
-                            Aliquam faucibus fermentum nonummy sagittis.
-                            Vestibulum ante ipsum primis. Donec lectus urna eget
-                            dui.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="column mcb-column one-fourth column_column">
-                        <div
-                          class="column_attr align_center"
-                          style="
-                            padding: 40px 10% 25px;
-                            border: 2px solid #f41101;
-                          "
-                        >
-                          <div
-                            class="image_frame image_item no_link scale-with-grid alignnone no_border"
-                          >
-                            <div class="image_wrapper">
-                              <img
-                                class="scale-with-grid"
-                                src="images/home_makeup_offer_icon2.png"
-                                width="780"
-                                height="540"
-                              />
-                            </div>
-                          </div>
-                          <hr class="no_line" style="margin: 0 auto 25px" />
-                          <div
-                            class="image_frame image_item no_link scale-with-grid alignnone no_border"
-                          >
-                            <div class="image_wrapper">
-                              <img
-                                class="scale-with-grid"
-                                src="images/home_makeup_sep.png"
-                                width="100"
-                                height="1"
-                              />
-                            </div>
-                          </div>
-                          <hr class="no_line" style="margin: 0 auto 25px" />
-                          <p class="big">
-                            Quisque vehicula non, sagittis ipsum pharetra
-                            elementum. Aenean scelerisque ligula, elementum leo.
-                            Suspendisse facilisis diam ut urna.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="column mcb-column one-fourth column_column">
-                        <div
-                          class="column_attr align_center"
-                          style="
-                            padding: 40px 10% 25px;
-                            border: 2px solid #f41101;
-                          "
-                        >
-                          <div
-                            class="image_frame image_item no_link scale-with-grid alignnone no_border"
-                          >
-                            <div class="image_wrapper">
-                              <img
-                                class="scale-with-grid"
-                                src="images/home_makeup_offer_icon3.png"
-                                width="780"
-                                height="540"
-                              />
-                            </div>
-                          </div>
-                          <hr class="no_line" style="margin: 0 auto 25px" />
-                          <div
-                            class="image_frame image_item no_link scale-with-grid alignnone no_border"
-                          >
-                            <div class="image_wrapper">
-                              <img
-                                class="scale-with-grid"
-                                src="images/home_makeup_sep.png"
-                                width="100"
-                                height="1"
-                              />
-                            </div>
-                          </div>
-                          <hr class="no_line" style="margin: 0 auto 25px" />
-                          <p class="big">
-                            Fusce facilisis gravida, eros cursus ante. Mauris id
-                            eros. Vestibulum ante sodales pretium cursus. In
-                            pretium quis, tincidunt wisi eu.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="column mcb-column one-fourth column_column">
-                        <div
-                          class="column_attr align_center"
-                          style="
-                            padding: 40px 10% 25px;
-                            border: 2px solid #f41101;
-                          "
-                        >
-                          <div
-                            class="image_frame image_item no_link scale-with-grid alignnone no_border"
-                          >
-                            <div class="image_wrapper">
-                              <img
-                                class="scale-with-grid"
-                                src="images/home_makeup_offer_icon4.png"
-                                width="780"
-                                height="540"
-                              />
-                            </div>
-                          </div>
-                          <hr class="no_line" style="margin: 0 auto 25px" />
-                          <div
-                            class="image_frame image_item no_link scale-with-grid alignnone no_border"
-                          >
-                            <div class="image_wrapper">
-                              <img
-                                class="scale-with-grid"
-                                src="images/home_makeup_sep.png"
-                                width="100"
-                                height="1"
-                              />
-                            </div>
-                          </div>
-                          <hr class="no_line" style="margin: 0 auto 25px" />
-                          <p class="big">
-                            Curabitur ornare lectus vulputate vel, dignissim
-                            erat velit pretium sit amet. Lorem ipsum dolor sit
-                            amet.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="section mcb-section"
-                style="padding-top: 20px; padding-bottom: 40px"
-              >
-                <div class="section_wrapper mcb-section-inner">
-                  <div class="wrap mcb-wrap one valign-top clearfix">
-                    <div class="mcb-wrap-inner">
-                      <div
-                        class="column mcb-column one-sixth column_placeholder"
-                      >
-                        <div class="placeholder">&nbsp;</div>
-                      </div>
-                      <div class="column mcb-column two-third column_column">
-                        <div class="column_attr align_center">
-                          <p>
-                            Vivamus pede. Mauris molestie vitae, cursus
-                            tristique, urna risus facilisis eget, euismod
-                            pulvinar, pede placerat aliquet. Aliquam eget arcu
-                            vel hendrerit vitae, vulputate aliquam erat.
-                            Pellentesque at nulla facilisis felis, eleifend
-                            viverra. Etiam accumsan urna, id lectus. Fusce
-                            aliquam tortor. Nullam justo vel dolor.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="column mcb-column one column_divider">
-                        <hr class="no_line" style="margin: 0 auto 20px" />
-                      </div>
-                      <div class="column mcb-column one column_image">
-                        <div
-                          class="image_frame image_item no_link scale-with-grid aligncenter no_border"
-                        >
-                          <div class="image_wrapper">
-                            <img
-                              class="scale-with-grid"
-                              src="../images/pexels-zhugewala-2113855.jpg"
-                              width="900"
-                              height="441"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="section mcb-section full-width no-margin-h no-margin-v"
-                id="gallery"
-                style="padding-top: 0px; padding-bottom: 0px"
-              >
-                <div class="section_wrapper mcb-section-inner">
-                  <div class="wrap mcb-wrap one valign-top clearfix">
-                    <div class="mcb-wrap-inner">
-                      <div
-                        class="column mcb-column one-third column_placeholder"
-                      >
-                        <div class="placeholder">&nbsp;</div>
-                      </div>
-                      <div class="column mcb-column one-third column_column">
-                        <div
-                          class="column_attr align_center"
-                          style="background-color: #f41101; padding: 20px 10%"
-                        >
-                          <h3 style="margin: 0; color: #fff">
-                            Realizations gallery
-                          </h3>
-                        </div>
-                      </div>
-                      <div class="column mcb-column one column_column">
-                        <div class="column_attr">
-                          <div
-                            id="gallery-1"
-                            class="gallery galleryid-2 gallery-columns-3 gallery-size-full file flat"
-                          >
-                            <dl class="gallery-item">
-                              <dt class="gallery-icon landscape">
-                                <a href="../images/pexels-pixabay-458766.jpg"
-                                  ><img
-                                    width="780"
-                                    height="780"
-                                    src="../images/pexels-pixabay-458766.jpg"
-                                    class="attachment-full size-full"
-                                /></a>
-                              </dt>
-                            </dl>
-                            <dl class="gallery-item">
-                              <dt class="gallery-icon landscape">
-                                <a href="../images/pexels-pixabay-247322.jpg"
-                                  ><img
-                                    width="780"
-                                    height="780"
-                                    src="../images/pexels-pixabay-247322.jpg"
-                                    class="attachment-full size-full"
-                                /></a>
-                              </dt>
-                            </dl>
-                            <dl class="gallery-item">
-                              <dt class="gallery-icon landscape">
-                                <a
-                                  href="../images/pexels-imustbedead-17882154.jpg"
-                                  ><img
-                                    width="780"
-                                    height="780"
-                                    src="../images/pexels-imustbedead-17882154.jpg"
-                                    class="attachment-full size-full"
-                                /></a>
-                              </dt>
-                            </dl>
-                            <br style="clear: both" />
-                            <dl class="gallery-item">
-                              <dt class="gallery-icon landscape">
-                                <a href="../images/pexels-pixabay-247287.jpg"
-                                  ><img
-                                    width="780"
-                                    height="780"
-                                    src="../images/pexels-pixabay-247287.jpg"
-                                    class="attachment-full size-full"
-                                /></a>
-                              </dt>
-                            </dl>
-                            <dl class="gallery-item">
-                              <dt class="gallery-icon landscape">
-                                <a
-                                  href="../images/pexels-bestbe-models-1977292.jpg"
-                                  ><img
-                                    width="780"
-                                    height="780"
-                                    src="../images/pexels-bestbe-models-1977292.jpg"
-                                    class="attachment-full size-full"
-                                /></a>
-                              </dt>
-                            </dl>
-                            <dl class="gallery-item">
-                              <dt class="gallery-icon landscape">
-                                <a href="../images/pexels-etan-4065066.jpg"
-                                  ><img
-                                    width="780"
-                                    height="780"
-                                    src="../images/pexels-etan-4065066.jpg"
-                                    class="attachment-full size-full"
-                                /></a>
-                              </dt>
-                            </dl>
-                            <br style="clear: both" />
-                          </div>
-                        </div>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -715,7 +333,7 @@
                 style="
                   padding-top: 100px;
                   padding-bottom: 60px;
-                  background-color: #ffd6e3;
+                  background-color: #031d44;
                   background-repeat: no-repeat;
                   background-position: center bottom;
                 "
@@ -807,13 +425,14 @@
                   </div>
                 </div>
               </div>
+
               <div
                 class="section mcb-section"
                 id="contact"
                 style="
                   padding-top: 100px;
                   padding-bottom: 60px;
-                  background-color: #ffd6e3;
+                  background-color: #f2f2f2;
                 "
               >
                 <div class="section_wrapper mcb-section-inner">
@@ -821,7 +440,7 @@
                     <div class="mcb-wrap-inner">
                       <div class="column mcb-column one column_column">
                         <div class="column_attr">
-                          <h2 style="font-weight: 600">
+                          <h2 style="font-weight: 600; color: #000">
                             — Interested? Let's talk...
                           </h2>
                         </div>
@@ -833,22 +452,18 @@
                     style="padding: 0 3% 0 0"
                   >
                     <div class="mcb-wrap-inner">
-                      <div
-                        class="column mcb-column one column_column column-margin-20px"
-                      >
+                      <div class="column mcb-column column_column">
                         <div class="column_attr">
-                          <h4>Address</h4>
+                          <h4 style="color: #000">Address</h4>
                         </div>
-                      </div>
-                      <div class="column mcb-column two-fifth column_column">
                         <div class="column_attr">
-                          <h5>Jessica Mess</h5>
-                          <p>
+                          <h5 style="color: #000">Jessica Mess</h5>
+                          <p style="color: #000">
                             Quisque nec nunc libero fringilla mollis. Nulla quis
                             orci luctus augue.
                           </p>
                           <hr class="no_line" style="margin: 0 auto 20px" />
-                          <p style="color: #f90176">
+                          <p style="color: #000">
                             Envato
                             <br />
                             Level 13, 2 Elizabeth <br />
@@ -862,27 +477,13 @@
                           <p>e-mail: <a href="#">noreply@envato.com</a></p>
                         </div>
                       </div>
-                      <div class="column mcb-column three-fifth column_image">
-                        <div
-                          class="image_frame image_item no_link scale-with-grid aligncenter no_border"
-                        >
-                          <div class="image_wrapper">
-                            <img
-                              class="scale-with-grid"
-                              src="images/home_makeup_pic3.jpg"
-                              width="780"
-                              height="720"
-                            />
-                          </div>
-                        </div>
-                      </div>
                     </div>
                   </div>
                   <div class="wrap mcb-wrap one-second valign-top clearfix">
                     <div class="mcb-wrap-inner">
                       <div class="column mcb-column one column_column">
                         <div class="column_attr">
-                          <h4>Send me a message</h4>
+                          <h4 style="color: #000">Send me a message</h4>
                           <hr class="no_line" style="margin: 0 auto 30px" />
                           <div id="contactWrapper">
                             <form id="contactform">
@@ -930,6 +531,7 @@
                               </div>
                               <div class="column one">
                                 <input
+                                  style="color: #fff; background-color: #000"
                                   type="button"
                                   value="Send A Message"
                                   id="submit"

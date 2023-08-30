@@ -1,0 +1,6 @@
+.header-plain #Top_bar {
+  border: none;
+}
+.header-plain #Top_bar .menu > li > a span:not(.description) {
+  border: none;
+}

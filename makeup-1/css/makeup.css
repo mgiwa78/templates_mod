@@ -977,19 +977,19 @@ a.mfn-link-6:before {
 #Header_creative,
 #Top_bar #menu,
 .sticky-tb-color #Top_bar.is-sticky {
-  background-color: #ffd6e3;
+  background-color: #031d44;
 }
 #Top_bar .top_bar_right:before {
-  background-color: #ffd6e3;
+  background-color: #031d44;
 }
 #Header .top_bar_right {
-  background-color: #ffd6e3;
+  background-color: #031d44;
 }
 #Top_bar .top_bar_right a {
   color: #444;
 }
 #Top_bar .menu > li > a {
-  color: #969696;
+  color: #fff;
 }
 #Top_bar .menu > li.current-menu-item > a,
 #Top_bar .menu > li.current_page_item > a,
@@ -1002,7 +1002,7 @@ a.mfn-link-6:before {
   color: #f41101;
 }
 .menuo-arrows #Top_bar .menu > li.submenu > a > span:not(.description)::after {
-  border-top-color: #969696;
+  border-top-color: #fff;
 }
 #Top_bar
   .menu
@@ -1435,46 +1435,46 @@ input[type="email"],
 textarea,
 select,
 .offer_li .title h3 {
-  font-family: "Caudex", Arial, Tahoma, sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
 }
 #menu > ul > li > a,
 .action_button,
 #overlay-menu ul li a {
-  font-family: "Caudex", Arial, Tahoma, sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
 }
 #Subheader .title {
-  font-family: "Caudex", Arial, Tahoma, sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
 }
 h1,
 .text-logo #logo {
-  font-family: "Caudex", Arial, Tahoma, sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 300;
 }
 h2 {
-  font-family: "Caudex", Arial, Tahoma, sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 300;
 }
 h3 {
-  font-family: "Caudex", Arial, Tahoma, sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 300;
 }
 h4 {
-  font-family: "Caudex", Arial, Tahoma, sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 300;
 }
 h5 {
-  font-family: "Caudex", Arial, Tahoma, sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
 }
 h6 {
-  font-family: "Caudex", Arial, Tahoma, sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
 }
 blockquote {
-  font-family: "Caudex", Arial, Tahoma, sans-serif;
+  font-family: "Lato", sans-serif;
 }
 .chart_box .chart .num,
 .counter .desc_wrapper .number-wrapper,
@@ -1482,7 +1482,7 @@ blockquote {
 .pricing-box .plan-header .price,
 .quick_fact .number-wrapper,
 .woocommerce .product div.entry-summary .price {
-  font-family: "Cuprum", Arial, Tahoma, sans-serif;
+  font-family: "Lato", sans-serif;
 }
 body {
   font-size: 14px;
@@ -1908,7 +1908,7 @@ h6 {
   line-height: 30px;
   font-weight: 400;
   font-style: normal;
-  font-family: Caudex;
+  font-family: "Lato", sans-serif;
   padding: 0;
   text-decoration: none;
   text-align: left;
@@ -1926,7 +1926,7 @@ h6 {
   line-height: 100px;
   font-weight: 400;
   font-style: normal;
-  font-family: Caudex;
+  font-family: "Lato", sans-serif;
   padding: 0;
   text-decoration: none;
   text-align: right;

@@ -2186,29 +2186,29 @@ input[type="email"],
 textarea,
 select,
 .offer_li .title h3 {
-  font-family: "Alata", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 #menu > ul > li > a,
 a.action_button,
 #overlay-menu ul li a {
-  font-family: "Alata", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 #Subheader .title {
-  font-family: "Alata", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 h1,
 h2,
 h3,
 h4,
 .text-logo #logo {
-  font-family: "Alata", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 h5,
 h6 {
-  font-family: "Alata", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 blockquote {
-  font-family: "Alata", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .chart_box .chart .num,
 .counter .desc_wrapper .number-wrapper,
@@ -2216,7 +2216,7 @@ blockquote {
 .pricing-box .plan-header .price,
 .quick_fact .number-wrapper,
 .woocommerce .product div.entry-summary .price {
-  font-family: "Alata", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 body {
   font-size: 17px;

@@ -19,7 +19,7 @@
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
     <!-- Favicons -->
-    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="shortcut icon" href="../images/favicon.svg" />
     <!-- FONTS -->
     <link
       rel="stylesheet"
@@ -38,21 +38,8 @@
       href="https://fonts.googleapis.com/css?family=Bodoni+Moda:100,200,300,400,400italic,500,600,700,700italic,900"
     />
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../css/bootstrap.min.css" rel="stylesheet" />
     <!--CSS -->
-
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              clifford: "#da373d"
-            }
-          }
-        }
-      };
-    </script>
 
     <link rel="stylesheet" href="css/structure.css" />
     <link rel="stylesheet" href="css/jeweler2.css" />
@@ -88,11 +75,7 @@
                         <li>
                           <a href="products.html"><span>products</span></a>
                         </li>
-                        <li>
-                          <a href="inspirations.html"
-                            ><span>inspirations</span></a
-                          >
-                        </li>
+
                         <li>
                           <a href="about.html"><span>about</span></a>
                         </li>
@@ -691,7 +674,7 @@
               data-tablet-col="tablet-one"
               data-mobile-col="mobile-one"
             >
-              <div class="mcb-wrap_inner flex justify-center">
+              <div class="mcb-wrap_inner d-flex justify-center">
                 <div
                   class="col-md-4 mcb_item_custom873 tablet-one-third mobile-one-third column_counter"
                 >
@@ -752,7 +735,7 @@
           <div class="section_wrapper w-full">
             <div class="col-12 tablet-one mobile-one clearfix w-full">
               <div
-                class="flex justify-center items-center flex-col md:flex-row"
+                class="d-flex justify-center items-center flex-col md:flex-row"
               >
                 <div
                   class="col-md-2 mcb_item_custom877 tablet-one-third mobile-one-second column_icon_box_2 flex justify-center flex-row"
@@ -1090,63 +1073,104 @@
           </div>
         </div>
       </div>
-      <footer
-        id="Footer"
-        class="clearfix mt-9 w-screen flex-col flex items-center justify-center"
-        role="contentinfo"
-      >
-        <div class="flex flex-col md:flex-row justify-center gap-10">
-          <div class="col-md-3">
-            <h5 class="font-bold text-xl">Useful links</h5>
-            <ul>
-              <li><a href="#">Contact us</a></li>
-              <li><a href="#">Help &amp; About us</a></li>
-              <li><a href="#">Shipping &amp; Returns</a></li>
-              <li><a href="#">Refund Policy</a></li>
-            </ul>
-            <div
-              style="height: 20px"
-              aria-hidden="true"
-              class="wp-block-spacer"
-            ></div>
-          </div>
-          <div class="col-md-2">
-            <h5 class="font-bold text-xl">Delivery</h5>
-            <ul>
-              <li><a href="#">How it Works</a></li>
-              <li><a href="#">Free Delivery</a></li>
-              <li><a href="#">FAQ</a></li>
-            </ul>
-          </div>
-          <div class="col-md-2">
-            <h5 class="font-bold text-xl">Customer service</h5>
-            <ul>
-              <li><a href="#">Orders</a></li>
-              <li><a href="#">Downloads</a></li>
-              <li><a href="#">Addresses</a></li>
-              <li><a href="#">Account details</a></li>
-              <li><a href="#">Lost password</a></li>
-            </ul>
-          </div>
-          <div class="col-md-2">
-            <h5 class="font-bold text-xl">Need help?</h5>
-            <h5><a href="tel:61383766284">+61 (0) 383 766 284</a></h5>
-            <h5><a href="tel:61383766284">+61 (0) 383 766 284</a></h5>
-            <p>
-              Monday - Friday: <br />
-              8am - 5pm
-            </p>
-            <p>
-              Saturday <br />
-              9am - 4pm
-            </p>
+      <footer id="Footer" class="clearfix" role="contentinfo">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <hr class="no_line" style="margin: 0 auto 120px" />
+            </div>
+            <div class="col-md-3">
+              <figure class="wp-block-image size-full">
+                <img src="images/jeweler2.svg" class="wp-image-30" />
+              </figure>
+              <p>
+                Quam pulvinar leo euismod id eu ultricies. Placerat proin
+                rhoncus sit.
+              </p>
+              <p>
+                <a class="button button_size_2 button_theme" href="contact.html"
+                  ><span class="button_label">Contact us</span></a
+                >
+              </p>
+              <div
+                style="height: 50px"
+                aria-hidden="true"
+                class="wp-block-spacer"
+              ></div>
+              <figure class="wp-block-image size-full">
+                <img
+                  loading="lazy"
+                  width="181"
+                  height="37"
+                  src="images/jeweler2-footer-payment.webp"
+                  class="wp-image-100"
+                />
+              </figure>
+            </div>
+            <div class="col-md-3">
+              <h5>Useful links</h5>
+              <ul>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Help &amp; About us</a></li>
+                <li><a href="#">Shipping &amp; Returns</a></li>
+                <li><a href="#">Refund Policy</a></li>
+              </ul>
+              <div
+                style="height: 20px"
+                aria-hidden="true"
+                class="wp-block-spacer"
+              ></div>
+              <h5>Delivery</h5>
+              <ul>
+                <li><a href="#">How it Works</a></li>
+                <li><a href="#">Free Delivery</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <h5>Customer service</h5>
+              <ul>
+                <li><a href="#">Orders</a></li>
+                <li><a href="#">Downloads</a></li>
+                <li><a href="#">Addresses</a></li>
+                <li><a href="#">Account details</a></li>
+                <li><a href="#">Lost password</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <h5>Need help?</h5>
+              <h5><a href="tel:61383766284">+61 (0) 383 766 284</a></h5>
+              <h5><a href="tel:61383766284">+61 (0) 383 766 284</a></h5>
+              <p>
+                Monday - Friday: <br />
+                8am - 5pm
+              </p>
+              <p>
+                Saturday <br />
+                9am - 4pm
+              </p>
+            </div>
+            <div class="col-12">
+              <hr class="no_line" style="margin: 0 auto 40px" />
+            </div>
           </div>
         </div>
-        <div class="footer_copy text-center w-full flex justify-between px-2">
-          <div class="copyright text-center">&copy; 2023 - Weboja</div>
-          <a id="back_to_top" class="footer_button" href="#"
-            ><i class="icon-up-open-big" aria-label="Back to top icon"></i
-          ></a>
+        <div class="footer_copy">
+          <div class="container">
+            <div class="column one mobile-one">
+              <div class="mcb-column-inner">
+                <a id="back_to_top" class="footer_button" href="#"
+                  ><i class="icon-up-open-big" aria-label="Back to top icon"></i
+                ></a>
+                <div class="copyright">&copy; 2023 - Weboja</div>
+                <ul
+                  class="social"
+                  role="navigation"
+                  aria-label="Social Menu"
+                ></ul>
+              </div>
+            </div>
+          </div>
         </div>
       </footer>
     </div>

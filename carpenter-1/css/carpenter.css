@@ -970,13 +970,13 @@ a.mfn-link-6:before {
 .header-below #Top_bar,
 #Header_creative,
 #Top_bar #menu {
-  background-color: #3757ff;
+  background-color: #f2f2f2;
 }
 #Top_bar .top_bar_right:before {
-  background-color: #3757ff;
+  background-color: #f2f2f2;
 }
 #Header .top_bar_right {
-  background-color: #3757ff;
+  background-color: #f2f2f2;
 }
 #Top_bar .top_bar_right a {
   color: #444444;
@@ -1381,46 +1381,46 @@ input[type="email"],
 textarea,
 select,
 .offer_li .title h3 {
-  font-family: "Raleway", Arial, Tahoma, sans-serif;
+  font-family: "Mooli", sans-serif;
   font-weight: 400;
 }
 #menu > ul > li > a,
 .action_button,
 #overlay-menu ul li a {
-  font-family: "Roboto Slab", Arial, Tahoma, sans-serif;
+  font-family: "Mooli", sans-serif;
   font-weight: 400;
 }
 #Subheader .title {
-  font-family: "Roboto Slab", Arial, Tahoma, sans-serif;
+  font-family: "Mooli", sans-serif;
   font-weight: 400;
 }
 h1,
 .text-logo #logo {
-  font-family: "Roboto Slab", Arial, Tahoma, sans-serif;
+  font-family: "Mooli", sans-serif;
   font-weight: 300;
 }
 h2 {
-  font-family: "Roboto Slab", Arial, Tahoma, sans-serif;
+  font-family: "Mooli", sans-serif;
   font-weight: 300;
 }
 h3 {
-  font-family: "Roboto Slab", Arial, Tahoma, sans-serif;
+  font-family: "Mooli", sans-serif;
   font-weight: 300;
 }
 h4 {
-  font-family: "Roboto Slab", Arial, Tahoma, sans-serif;
+  font-family: "Mooli", sans-serif;
   font-weight: 300;
 }
 h5 {
-  font-family: "Roboto Slab", Arial, Tahoma, sans-serif;
+  font-family: "Mooli", sans-serif;
   font-weight: 700;
 }
 h6 {
-  font-family: "Roboto Slab", Arial, Tahoma, sans-serif;
+  font-family: "Mooli", sans-serif;
   font-weight: 400;
 }
 blockquote {
-  font-family: "Roboto Slab", Arial, Tahoma, sans-serif;
+  font-family: "Mooli", sans-serif;
 }
 .chart_box .chart .num,
 .counter .desc_wrapper .number-wrapper,
@@ -1428,7 +1428,7 @@ blockquote {
 .pricing-box .plan-header .price,
 .quick_fact .number-wrapper,
 .woocommerce .product div.entry-summary .price {
-  font-family: "Roboto Slab", Arial, Tahoma, sans-serif;
+  font-family: "Mooli", sans-serif;
 }
 body {
   font-size: 14px;

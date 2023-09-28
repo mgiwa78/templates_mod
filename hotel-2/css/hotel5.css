@@ -1246,7 +1246,7 @@ body:not(.template-slider) #Header_wrapper {
   border-top-color: #545454;
 }
 #Footer {
-  background-color: #463229;
+  background-color: #000;
 }
 body,
 ul.timeline_items,
@@ -1611,11 +1611,11 @@ a.mfn-link-6:before {
 #Header_creative,
 #Top_bar #menu,
 .sticky-tb-color #Top_bar.is-sticky {
-  background-color: #bb4d00;
+  background-color: #f2f2f2;
 }
 #Top_bar .wpml-languages a.active,
 #Top_bar .wpml-languages ul.wpml-lang-dropdown {
-  background-color: #bb4d00;
+  background-color: #f2f2f2;
 }
 #Top_bar .top_bar_right:before {
   background-color: #e3e3e3;
@@ -1627,14 +1627,14 @@ a.mfn-link-6:before {
   color: #333333;
 }
 a.action_button {
-  background-color: #bb4d00;
+  background-color: #f2f2f2;
   color: #000000;
 }
 .button-stroke a.action_button {
-  border-color: #bb4d00;
+  border-color: #f2f2f2;
 }
 .button-stroke a.action_button:hover {
-  background-color: #bb4d00 !important;
+  background-color: #f2f2f2 !important;
 }
 #Top_bar .menu > li > a,
 #Top_bar #menu ul li.submenu .menu-toggle {
@@ -2167,7 +2167,7 @@ textarea:focus {
 }
 @media only screen and (max-width: 767px) {
   #Top_bar {
-    background-color: #bb4d00 !important;
+    background-color: #f2f2f2 !important;
   }
   #Action_bar {
     background-color: #ffffff !important;

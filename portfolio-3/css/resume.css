@@ -11,13 +11,14 @@
   background-color: #2c2c2c;
 }
 #Sliding-top {
-  background-color: #3185fc;
+  background-color: #f2f2f2;
 }
 #Sliding-top a.sliding-top-control {
-  border-right-color: #3185fc;
+  border-right-color: #f2f2f2;
 }
 #Footer {
-  background-color: #3185fc;
+  color: #000;
+  background-color: #f2f2f2;
 }
 
 /************************ Colors ************************/

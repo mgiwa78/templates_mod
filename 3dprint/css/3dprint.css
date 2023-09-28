@@ -10,6 +10,9 @@
 .woocommerce-page .col2-set {
   width: 100%;
 }
+.menu-main li:hover span {
+  color: #6320ee;
+}
 .woocommerce .col2-set::after,
 .woocommerce .col2-set::before,
 .woocommerce-page .col2-set::after,
@@ -4763,17 +4766,17 @@ h1,
 h1 a,
 h1 a:hover,
 .text-logo #logo {
-  color: #f2f2f2;
+  color: #000;
 }
 h2,
 h2 a,
 h2 a:hover {
-  color: #f2f2f2;
+  color: #000;
 }
 h3,
 h3 a,
 h3 a:hover {
-  color: #f2f2f2;
+  color: #000;
 }
 h4,
 h4 a,
@@ -6271,7 +6274,7 @@ form input.display-none {
 .the-icons.span3 .i-name {
   padding-left: 40px;
 }
-@media only screen and (min-width: 768px )and (max-width: 959px) {
+@media only screen and (min-width: 768px) and (max-width: 959px) {
   .the-icons.span3 {
     width: 33.333%;
   }

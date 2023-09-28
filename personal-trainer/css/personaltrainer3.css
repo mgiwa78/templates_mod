@@ -10,6 +10,9 @@
 .mcb_item_custom1196 .title a {
   color: #ffffff;
 }
+.menu-main li a:hover span {
+  color: #f9592d;
+}
 .mcb_item_custom1196 .mcb-column-inner {
   margin-bottom: 20px;
 }
@@ -27,7 +30,7 @@
   color: #ffffff;
   font-size: px;
   font-weight: bold;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .mcb_item_custom1197 .mcb-column-inner {
   padding-top: 25px;
@@ -45,7 +48,7 @@
   color: #ffffff;
   font-size: px;
   font-weight: bold;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .mcb_item_custom1198 .mcb-column-inner {
   padding-top: 25px;
@@ -247,7 +250,7 @@
   color: #ffffff;
   font-size: px;
   font-weight: bold;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .mcb_item_custom1207 .mcb-column-inner {
   padding-top: 25px;
@@ -265,7 +268,7 @@
   color: #ffffff;
   font-size: px;
   font-weight: bold;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .mcb_item_custom1238 .mcb-column-inner {
   padding-top: 25px;
@@ -969,29 +972,29 @@ input[type="email"],
 textarea,
 select,
 .offer_li .title h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 #menu > ul > li > a,
 a.action_button,
 #overlay-menu ul li a {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 #Subheader .title {
-font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 h1,
 h2,
 h3,
 h4,
 .text-logo #logo {
-font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 h5,
 h6 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 blockquote {
-font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .chart_box .chart .num,
 .counter .desc_wrapper .number-wrapper,
@@ -999,7 +1002,7 @@ font-family: 'Poppins', sans-serif;
 .pricing-box .plan-header .price,
 .quick_fact .number-wrapper,
 .woocommerce .product div.entry-summary .price {
-font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 body {
   font-size: 17px;
@@ -1615,7 +1618,7 @@ h6 {
 .button-custom .woocommerce a.button,
 .button-custom .woocommerce button.button,
 .button-custom .woocommerce input.button {
-font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   line-height: 14px;
   font-weight: 700;
